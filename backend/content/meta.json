@@ -1,0 +1,42 @@
+{
+  "sources": [
+    {"name": "Media and Information Literacy", "publisher": "UNESCO", "url": "https://www.unesco.org", "used_for": "Concept of media and information literacy; general background for the media literacy texts and debate."},
+    {"name": "Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making (2017)", "publisher": "Claire Wardle & Hossein Derakhshan, Council of Europe", "url": null, "used_for": "Definitions of misinformation, disinformation and malinformation (Key Facts: “Beyond fake news”)."},
+    {"name": "The spread of true and false news online, Science 359 (2018)", "publisher": "Soroush Vosoughi, Deb Roy & Sinan Aral (MIT)", "url": "https://doi.org/10.1126/science.aap9559", "used_for": "Findings on how false news spreads on Twitter, the role of bots, the “70 per cent more likely to be retweeted” figure."},
+    {"name": "Research on lateral reading and civic online reasoning", "publisher": "Stanford History Education Group (Sam Wineburg and colleagues)", "url": null, "used_for": "Comparison of fact-checkers, historians and students; vertical vs. lateral reading."},
+    {"name": "The SIFT method", "publisher": "Mike Caulfield", "url": null, "used_for": "The four moves: Stop, Investigate the source, Find better coverage, Trace claims."},
+    {"name": "The Filter Bubble (2011)", "publisher": "Eli Pariser (book)", "url": null, "used_for": "Origin of the term “filter bubble”."},
+    {"name": "The Age of Surveillance Capitalism (2019)", "publisher": "Shoshana Zuboff (book)", "url": null, "used_for": "The term “surveillance capitalism”."},
+    {"name": "Reclaiming Conversation (2015)", "publisher": "Sherry Turkle (book)", "url": null, "used_for": "Argument about texting, conversation and empathy."},
+    {"name": "The Anxious Generation (2024)", "publisher": "Jonathan Haidt (book)", "url": null, "used_for": "Haidt’s claims and four proposed norms."},
+    {"name": "“The great rewiring: is social media really behind an epidemic of teenage mental illness?” Nature (2024)", "publisher": "Candice Odgers", "url": null, "used_for": "Critique of Haidt; correlation vs. causation."},
+    {"name": "Designing Organizations for an Information-Rich World (1971)", "publisher": "Herbert A. Simon", "url": null, "used_for": "The idea that “a wealth of information creates a poverty of attention”."},
+    {"name": "Deep Fakes: A Looming Challenge for Privacy, Democracy, and National Security, California Law Review (2019)", "publisher": "Bobby Chesney & Danielle Citron", "url": null, "used_for": "The term “liar’s dividend”."},
+    {"name": "Coalition for Content Provenance and Authenticity (C2PA)", "publisher": "C2PA", "url": "https://c2pa.org", "used_for": "Content credentials standard."},
+    {"name": "Center for Humane Technology", "publisher": "Center for Humane Technology", "url": "https://www.humanetech.com", "used_for": "Background on Tristan Harris and the critique of attention-capturing design."},
+    {"name": "General Data Protection Regulation – Regulation (EU) 2016/679", "publisher": "European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj", "used_for": "Data subjects’ rights, application since 25 May 2018, maximum fines (Art. 83)."},
+    {"name": "Digital Services Act – Regulation (EU) 2022/2065", "publisher": "European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj", "used_for": "Duties of very large online platforms, systemic risks, ban on dark patterns."},
+    {"name": "Artificial Intelligence Act – Regulation (EU) 2024/1689", "publisher": "European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj", "used_for": "Transparency obligations for AI-generated or manipulated content (deepfakes)."},
+    {"name": "Judgments C-362/14 (Schrems I, 2015) and C-311/18 (Schrems II, 2020)", "publisher": "Court of Justice of the European Union", "url": "https://curia.europa.eu", "used_for": "Invalidation of Safe Harbour and the EU–US Privacy Shield."},
+    {"name": "Austrian Data Protection Authority (Datenschutzbehörde)", "publisher": "Republic of Austria", "url": "https://www.dsb.gv.at", "used_for": "Official reporting channel mentioned in the whistle-blower dilemma."},
+    {"name": "Austrian Criminal Code (StGB), § 107c", "publisher": "Rechtsinformationssystem des Bundes (RIS)", "url": "https://www.ris.bka.gv.at", "used_for": "Persistent harassment via telecommunications or computer systems (“cyberbullying”), in force since 2016."},
+    {"name": "Saferinternet.at", "publisher": "Austrian initiative for safe internet use", "url": "https://www.saferinternet.at", "used_for": "General background on cyberbullying, privacy and young people’s internet use in Austria."},
+    {"name": "World Press Freedom Index", "publisher": "Reporters Without Borders (RSF)", "url": "https://rsf.org", "used_for": "Annual index since 2002, around 180 countries and territories, criteria."},
+    {"name": "Digital News Report (annual)", "publisher": "Reuters Institute for the Study of Journalism, University of Oxford", "url": "https://www.digitalnewsreport.org", "used_for": "General finding that many people say they sometimes or often avoid the news."},
+    {"name": "Collins Word of the Year 2017", "publisher": "Collins Dictionary", "url": "https://www.collinsdictionary.com", "used_for": "“Fake news” as Word of the Year 2017."},
+    {"name": "Online Safety Amendment (Social Media Minimum Age) Act 2024", "publisher": "Parliament of Australia", "url": null, "used_for": "Minimum age of 16 for accounts on many social media platforms."},
+    {"name": "Reporting on the Cambridge Analytica scandal (March 2018) and FTC settlement with Facebook (2019)", "publisher": "The Guardian / The Observer, The New York Times, US Federal Trade Commission", "url": null, "used_for": "Case study facts: up to 87 million affected users (Facebook’s estimate), five-billion-dollar FTC penalty."}
+  ],
+  "verify_note": "These sources were used as background for the texts in this app. Facts can change (laws are updated, rankings change every year), so please verify any fact or figure in an up-to-date source before you quote it in an exam or presentation. Where no URL is given, search for the title and author – we only list links we are confident are correct.",
+  "ai_statement": "AI was used to brainstorm and generate initial exercises. All tasks should be checked, edited and adapted by the students before use.",
+  "how_to_use": [
+    {"title": "Start with the background", "text": "Work through the Key Facts texts first. They give you the facts, examples and names you can use to support your arguments."},
+    {"title": "Build your vocabulary every day", "text": "Do one vocabulary set or flashcard deck a day. Learn collocations as chunks (e.g. “raise awareness”, “hold someone to account”), not single words."},
+    {"title": "Speak out loud – always", "text": "Speaking tasks only work if you actually speak. Use the timer, record yourself on your phone and listen back. Then use the self-assessment checklist honestly."},
+    {"title": "Practise with a partner", "text": "Role-plays, debates and dilemmas are designed for pairs or small groups. Take turns playing the examiner and ask the follow-up questions."},
+    {"title": "Fix your typical mistakes", "text": "The Language Workshop targets mistakes that German speakers often make. Note the ones you make and check for them in your recordings."},
+    {"title": "Simulate the exam", "text": "In the last weeks, do the Mini Exam Simulation regularly. Treat it seriously: no notes beyond your preparation, no pausing the timer."},
+    {"title": "Use the daily suggestion", "text": "The dashboard suggests a task every day and tracks your streak. Ten focused minutes a day beat a three-hour panic session before the exam."}
+  ],
+  "exam_note": "The Mini Exam Simulation is a practice format created for this app. It is NOT an official description of the Austrian oral Matura (Reifeprüfung). Formats, preparation times and assessment criteria can differ – always check the current official requirements with your teacher."
+}

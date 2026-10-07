@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/fraunces";
+
+/* Dark mode is driven by the .dark class on <html> (see useTheme). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces Variable", ui-serif, Georgia, serif;
+  --color-ink-950: #0b1020;
+  --color-ink-900: #11172b;
+  --color-ink-850: #161d35;
+  --color-ink-800: #1c2440;
+  --color-ink-700: #2a3354;
+  --shadow-soft: 0 1px 2px rgb(15 23 42 / 0.04), 0 8px 24px -12px rgb(15 23 42 / 0.12);
+  --shadow-lift: 0 2px 4px rgb(15 23 42 / 0.05), 0 18px 40px -16px rgb(15 23 42 / 0.25);
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-slate-50 font-sans text-slate-800 antialiased dark:bg-ink-950 dark:text-slate-200;
+    min-height: 100dvh;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-indigo-500 dark:outline-indigo-400;
+  }
+  ::selection {
+    @apply bg-indigo-200 text-indigo-950 dark:bg-indigo-500/40 dark:text-white;
+  }
+}
+
+@utility card {
+  @apply rounded-2xl border border-slate-200/80 bg-white shadow-soft dark:border-white/[0.07] dark:bg-ink-900;
+}
+@utility card-muted {
+  @apply rounded-2xl border border-slate-200/70 bg-slate-50/80 dark:border-white/[0.06] dark:bg-ink-850;
+}
+@utility btn {
+  @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-all duration-150 select-none disabled:cursor-not-allowed disabled:opacity-50 active:scale-[0.98];
+}
+@utility btn-primary {
+  @apply btn bg-gradient-to-br from-indigo-600 to-violet-600 text-white shadow-md shadow-indigo-600/20 hover:from-indigo-500 hover:to-violet-500;
+}
+@utility btn-secondary {
+  @apply btn border border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:bg-slate-50 dark:border-white/10 dark:bg-ink-850 dark:text-slate-200 dark:hover:bg-ink-800;
+}
+@utility btn-ghost {
+  @apply btn text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-white/5;
+}
+@utility chip {
+  @apply inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-medium;
+}
+@utility input {
+  @apply w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-[15px] text-slate-800 placeholder:text-slate-400 transition focus:border-indigo-400 focus:ring-4 focus:ring-indigo-500/10 focus:outline-none dark:border-white/10 dark:bg-ink-850 dark:text-slate-100 dark:placeholder:text-slate-500 dark:focus:border-indigo-400;
+}
+@utility eyebrow {
+  @apply text-[11px] font-semibold tracking-[0.14em] text-slate-500 uppercase dark:text-slate-400;
+}
+
+.prose-text p + p {
+  margin-top: 0.75rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom), 0px);
+}

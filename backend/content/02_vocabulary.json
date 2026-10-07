@@ -1,0 +1,458 @@
+{
+  "id": "vocabulary",
+  "order": 2,
+  "title": "Vocabulary",
+  "short_title": "Vocabulary",
+  "description": "Topic words, collocations, phrasal verbs, idioms and word families at B2–C1 – with flashcards, sorting and matching.",
+  "icon": "BookOpen",
+  "accent": "violet",
+  "intro": "Precise vocabulary is one of the clearest signs of a strong exam performance. Don’t just learn single words – learn the words they go with (collocations). Use the flashcards for quick revision and the other tasks to test yourself.",
+  "exercises": [
+    {
+      "id": "voc-flashcards-core",
+      "section": "vocabulary",
+      "type": "flashcards",
+      "title": "Core concepts deck",
+      "instruction": "Read the term, try to explain it in your own words, then flip the card. Mark each card as “I know it” or “Not yet”. Cards you don’t know come back at the end.",
+      "difficulty": "B2",
+      "estimated_minutes": 8,
+      "tags": ["flashcards", "key terms"],
+      "cards": [
+        {"term": "misinformation", "definition": "false or inaccurate information that is shared without the intention to deceive", "example": "A lot of health misinformation is spread by people who genuinely want to help."},
+        {"term": "disinformation", "definition": "false information that is deliberately created or spread to mislead people", "example": "The government accused a foreign state of running a disinformation campaign."},
+        {"term": "media literacy", "definition": "the ability to access, analyse, evaluate and create media critically", "example": "Media literacy should be taught in every school subject, not just in IT lessons."},
+        {"term": "echo chamber", "definition": "an environment in which people mainly hear opinions that repeat and reinforce their own", "example": "If you only follow people who agree with you, you can end up in an echo chamber."},
+        {"term": "filter bubble", "definition": "a situation in which algorithms show users mainly content that matches their previous behaviour and views", "example": "Personalised news feeds may put users in a filter bubble without them noticing."},
+        {"term": "clickbait", "definition": "content, especially a headline, designed mainly to attract clicks rather than to inform", "example": "“You won’t believe what happened next” is a classic example of clickbait."},
+        {"term": "digital footprint", "definition": "the trail of data you leave behind when you use the internet", "example": "Employers sometimes check applicants’ digital footprint before inviting them to an interview."},
+        {"term": "targeted advertising", "definition": "adverts shown to particular users based on data about their behaviour, interests or location", "example": "Targeted advertising is the main source of income for many free platforms."},
+        {"term": "press freedom", "definition": "the right of journalists and media to report without censorship or intimidation", "example": "Press freedom is a cornerstone of any functioning democracy."},
+        {"term": "hate speech", "definition": "public expression that attacks or incites hatred against people because of characteristics such as religion, ethnicity or sexual orientation", "example": "The platform has been criticised for not removing hate speech quickly enough."},
+        {"term": "content moderation", "definition": "the process of reviewing and removing user posts that break a platform’s rules or the law", "example": "Content moderation is often done by a mix of algorithms and low-paid human workers."},
+        {"term": "deepfake", "definition": "a video, image or audio recording manipulated with AI to make someone appear to say or do something they did not", "example": "A deepfake of the candidate circulated just days before the election."}
+      ]
+    },
+    {
+      "id": "voc-flashcards-advanced",
+      "section": "vocabulary",
+      "type": "flashcards",
+      "title": "Advanced terms deck",
+      "instruction": "These C1 terms will make your speaking more precise. Explain each term before you flip the card, and try to use it in a sentence of your own.",
+      "difficulty": "C1",
+      "estimated_minutes": 10,
+      "tags": ["flashcards", "C1", "key terms"],
+      "cards": [
+        {"term": "gatekeeper", "definition": "a person or organisation that decides which information reaches the public, traditionally editors and journalists", "example": "Social media has weakened the role of traditional gatekeepers such as newspaper editors."},
+        {"term": "astroturfing", "definition": "an organised campaign designed to look like spontaneous support from ordinary people", "example": "Hundreds of identical reviews suggested the company was astroturfing."},
+        {"term": "prebunking", "definition": "warning people in advance about manipulation techniques so they can recognise false information later", "example": "Short prebunking videos can make viewers better at spotting emotional manipulation."},
+        {"term": "false balance", "definition": "presenting two sides of an issue as equally valid when the evidence clearly supports one side", "example": "Giving a climate-change denier equal airtime as a climate scientist creates false balance."},
+        {"term": "sensationalism", "definition": "presenting news in a shocking or exaggerated way to attract attention", "example": "The tabloid was accused of sensationalism in its coverage of the trial."},
+        {"term": "self-censorship", "definition": "avoiding saying or publishing something out of fear of negative consequences", "example": "Online abuse can lead to self-censorship among female journalists."},
+        {"term": "digital divide", "definition": "the gap between people who have access to digital technology and skills and those who do not", "example": "The pandemic made the digital divide between pupils painfully visible."},
+        {"term": "moral panic", "definition": "a widespread, often exaggerated fear that something threatens society’s values or safety", "example": "Some historians compare today’s fears about smartphones to earlier moral panics about comics or video games."},
+        {"term": "information overload", "definition": "having so much information that it becomes difficult to understand an issue or make decisions", "example": "Constant notifications contribute to information overload."},
+        {"term": "parasocial relationship", "definition": "a one-sided feeling of closeness to a media figure who does not know you", "example": "Influencers profit from the parasocial relationships their followers develop."},
+        {"term": "whistle-blower", "definition": "a person who reveals secret information about wrongdoing inside an organisation", "example": "The whistle-blower leaked internal documents to journalists."},
+        {"term": "algorithmic transparency", "definition": "the principle that people should be able to understand how automated systems make decisions", "example": "Regulators are demanding more algorithmic transparency from large platforms."}
+      ]
+    },
+    {
+      "id": "voc-verb-noun-collocations",
+      "section": "vocabulary",
+      "type": "matching",
+      "title": "Verb + noun collocations",
+      "instruction": "Match each verb with the phrase it naturally goes with. Each verb has only one correct partner.",
+      "difficulty": "B2",
+      "estimated_minutes": 5,
+      "tags": ["collocations", "verbs"],
+      "left_label": "Verb",
+      "right_label": "Partner",
+      "pairs": [
+        {"left": "go", "right": "viral", "explanation": "A video or post “goes viral” when it spreads very quickly online."},
+        {"left": "invade", "right": "someone’s privacy", "explanation": "Paparazzi and data brokers can “invade someone’s privacy”."},
+        {"left": "hold", "right": "the powerful to account", "explanation": "To “hold someone to account” = make them explain and take responsibility for their actions."},
+        {"left": "set", "right": "the news agenda", "explanation": "Media that “set the agenda” decide which topics people talk about."},
+        {"left": "leak", "right": "confidential documents", "explanation": "To “leak” information = give secret information to the public or press."},
+        {"left": "strike", "right": "a balance between freedom and safety", "explanation": "To “strike a balance” = find a fair compromise between two things."},
+        {"left": "raise", "right": "public awareness", "explanation": "Campaigns “raise awareness” of an issue."},
+        {"left": "draw", "right": "a clear line between ads and content", "explanation": "To “draw a line between” two things = make a clear distinction."}
+      ],
+      "explanation": "Collocations are word partnerships that native speakers use automatically. Saying “make a balance” or “do awareness” is understandable but sounds unnatural – examiners notice. Learn these as complete chunks."
+    },
+    {
+      "id": "voc-phrasal-verbs",
+      "section": "vocabulary",
+      "type": "matching",
+      "title": "Phrasal verbs for the digital world",
+      "instruction": "Match each phrasal verb with its meaning. Then say an example sentence about media for each one.",
+      "difficulty": "B2",
+      "estimated_minutes": 6,
+      "tags": ["phrasal verbs"],
+      "left_label": "Phrasal verb",
+      "right_label": "Meaning",
+      "pairs": [
+        {"left": "crack down on", "right": "take strong action to stop something", "explanation": "The government is cracking down on online scams."},
+        {"left": "opt out of", "right": "choose not to take part in something", "explanation": "You can opt out of personalised advertising in the settings."},
+        {"left": "take down", "right": "remove something, e.g. a post or website", "explanation": "The platform took down the video within an hour."},
+        {"left": "play down", "right": "make something seem less important than it is", "explanation": "The company tried to play down the data breach."},
+        {"left": "back up", "right": "support a claim with evidence", "explanation": "Can you back up that claim with a reliable source?"},
+        {"left": "weigh up", "right": "consider the advantages and disadvantages", "explanation": "Before you share a post, weigh up whether it could hurt someone."},
+        {"left": "come across", "right": "find or see something by chance", "explanation": "I came across an interesting article about deepfakes."},
+        {"left": "keep up with", "right": "stay informed about the latest developments", "explanation": "It’s hard to keep up with the news when it changes every hour."}
+      ],
+      "explanation": "Phrasal verbs make your speaking sound natural. In formal writing, you can often replace them with a single verb: crack down on → suppress, back up → support, play down → minimise."
+    },
+    {
+      "id": "voc-definitions",
+      "section": "vocabulary",
+      "type": "multiple_choice",
+      "title": "From definition to word",
+      "instruction": "Read each definition and choose the word it describes. Watch out: the wrong options are related words that mean something different.",
+      "difficulty": "B2",
+      "estimated_minutes": 6,
+      "tags": ["definitions", "online behaviour"],
+      "questions": [
+        {
+          "prompt": "Publishing someone’s private information, such as their home address, online without consent, usually to harass them.",
+          "options": ["phishing", "trolling", "doxxing", "catfishing"],
+          "answer": 2,
+          "explanation": "Doxxing comes from “docs” (documents). Phishing tricks people into giving away passwords; trolling provokes; catfishing uses a fake identity."
+        },
+        {
+          "prompt": "Creating a fake online identity to deceive someone, often in a romantic context.",
+          "options": ["catfishing", "ghosting", "lurking", "trolling"],
+          "answer": 0,
+          "explanation": "Catfishing = pretending to be someone else. Ghosting = suddenly ending all contact without explanation."
+        },
+        {
+          "prompt": "Continuing to scroll through bad or upsetting news even though it makes you feel worse.",
+          "options": ["binge-watching", "news avoidance", "lurking", "doomscrolling"],
+          "answer": 3,
+          "explanation": "Doomscrolling = doom (disaster) + scrolling. News avoidance is the opposite reaction: deliberately staying away from news."
+        },
+        {
+          "prompt": "The tendency to look for and believe information that supports what you already think.",
+          "options": ["echo chamber", "confirmation bias", "groupthink", "false balance"],
+          "answer": 1,
+          "explanation": "Confirmation bias is a psychological tendency inside each person. An echo chamber is an environment; groupthink is a group’s pressure to agree."
+        },
+        {
+          "prompt": "Deliberately posting provocative or offensive messages to upset people and provoke reactions.",
+          "options": ["spamming", "trolling", "flagging", "lurking"],
+          "answer": 1,
+          "explanation": "Trolls want to provoke. Spamming = sending masses of unwanted messages; flagging = reporting content to a platform."
+        },
+        {
+          "prompt": "A fraudulent message designed to trick people into revealing passwords or bank details.",
+          "options": ["malware", "spam", "doxxing", "phishing"],
+          "answer": 3,
+          "explanation": "Phishing (from “fishing”) tries to make you “take the bait”. Spam is any unwanted bulk message; malware is harmful software."
+        },
+        {
+          "prompt": "Reading content in an online community without ever posting anything yourself.",
+          "options": ["lurking", "ghosting", "trolling", "muting"],
+          "answer": 0,
+          "explanation": "A lurker reads but does not post. Most members of online communities are lurkers."
+        },
+        {
+          "prompt": "A person whose job is to present information in a way that makes a politician or organisation look good.",
+          "options": ["whistle-blower", "gatekeeper", "spin doctor", "fact-checker"],
+          "answer": 2,
+          "explanation": "A spin doctor puts a positive “spin” on events. A whistle-blower reveals wrongdoing; a gatekeeper controls what gets published."
+        }
+      ]
+    },
+    {
+      "id": "voc-sort-misinformation",
+      "section": "vocabulary",
+      "type": "sorting",
+      "title": "Spreading vs. fighting false information",
+      "instruction": "Sort each expression into the correct category: does it describe a way of creating or spreading false information, or a way of fighting it?",
+      "difficulty": "C1",
+      "estimated_minutes": 5,
+      "tags": ["sorting", "misinformation", "collocations"],
+      "categories": ["Creating or spreading false information", "Fighting false information"],
+      "items": [
+        {"text": "fabricate a story", "category": "Creating or spreading false information", "explanation": "fabricate = invent something false"},
+        {"text": "doctor a photo", "category": "Creating or spreading false information", "explanation": "doctor (verb) = change something dishonestly"},
+        {"text": "deploy a network of bots", "category": "Creating or spreading false information"},
+        {"text": "take a quote out of context", "category": "Creating or spreading false information"},
+        {"text": "cherry-pick statistics", "category": "Creating or spreading false information", "explanation": "cherry-pick = choose only the facts that support your view"},
+        {"text": "debunk a myth", "category": "Fighting false information", "explanation": "debunk = show that something is false"},
+        {"text": "trace a claim to its source", "category": "Fighting false information"},
+        {"text": "issue a correction", "category": "Fighting false information"},
+        {"text": "flag a misleading post", "category": "Fighting false information", "explanation": "flag = report or mark something for attention"},
+        {"text": "prebunk manipulation techniques", "category": "Fighting false information", "explanation": "prebunking = warning people in advance"}
+      ],
+      "explanation": "Strong verbs like fabricate, doctor, cherry-pick and debunk are much more precise than “make fake news” or “show it’s wrong”. Use them in your monologue."
+    },
+    {
+      "id": "voc-word-families",
+      "section": "vocabulary",
+      "type": "transformation",
+      "title": "Word families",
+      "instruction": "Complete each sentence with the correct form of the word in capitals. You may need a prefix, a suffix or both. Type your answer and check it.",
+      "difficulty": "C1",
+      "estimated_minutes": 8,
+      "tags": ["word formation", "word families"],
+      "items": [
+        {"original": "RELY", "gapped": "The ___ of online sources varies enormously.", "accepted_answers": ["reliability"], "explanation": "Noun needed after “the … of”: rely → reliable → reliability."},
+        {"original": "ANONYMOUS", "gapped": "Online ___ can encourage people to say things they would never say in person.", "accepted_answers": ["anonymity"], "explanation": "Noun: anonymous → anonymity."},
+        {"original": "ADDICT", "gapped": "Many apps are deliberately designed to be highly ___.", "accepted_answers": ["addictive"], "explanation": "Adjective after “be highly”: addict → addictive."},
+        {"original": "ACCOUNT", "gapped": "Platforms should be held ___ for the content their algorithms promote.", "accepted_answers": ["accountable"], "explanation": "“Hold someone accountable” = make them responsible."},
+        {"original": "CREDIBLE", "gapped": "The scandal seriously damaged the newspaper’s ___.", "accepted_answers": ["credibility"], "explanation": "Noun after a possessive: credible → credibility."},
+        {"original": "BIAS", "gapped": "No news outlet is ever completely ___.", "accepted_answers": ["unbiased"], "explanation": "The meaning requires a negative adjective: biased → unbiased (= impartial)."},
+        {"original": "TRANSPARENT", "gapped": "There is a worrying lack of ___ about how recommendation algorithms work.", "accepted_answers": ["transparency"], "explanation": "Noun after “lack of”: transparent → transparency."},
+        {"original": "POLAR", "gapped": "Social media is often blamed for the growing ___ of society.", "accepted_answers": ["polarisation", "polarization"], "explanation": "Noun: polar → polarise → polarisation (British) / polarization (American)."},
+        {"original": "VERIFY", "gapped": "The claim turned out to be completely ___ – nobody could find any evidence for it.", "accepted_answers": ["unverifiable"], "explanation": "The context (“nobody could find any evidence”) needs a negative adjective with -able: verify → verifiable → unverifiable."}
+      ]
+    },
+    {
+      "id": "voc-context-choice",
+      "section": "vocabulary",
+      "type": "multiple_choice",
+      "title": "Choose the precise word",
+      "instruction": "All options look similar, but only one fits naturally in each sentence. Choose it, then read the explanation to understand why the others don’t work.",
+      "difficulty": "C1",
+      "estimated_minutes": 8,
+      "tags": ["context", "collocations", "confusing words"],
+      "questions": [
+        {
+          "prompt": "The minister ___ the allegations as “fake news”.",
+          "options": ["refused", "dismissed", "neglected", "ignored"],
+          "answer": 1,
+          "explanation": "“Dismiss something as …” = reject it as not worth considering. “Refuse” is followed by an offer or a request, not by allegations."
+        },
+        {
+          "prompt": "The video ___ millions of views within a single day.",
+          "options": ["built up", "summed up", "racked up", "made up"],
+          "answer": 2,
+          "explanation": "“Rack up” = collect a large number of something (views, points, debts)."
+        },
+        {
+          "prompt": "Journalists have a duty to protect their ___.",
+          "options": ["sources", "resources", "origins", "roots"],
+          "answer": 0,
+          "explanation": "A journalist’s “sources” are the people who give them information. Protecting sources is a core principle of journalism."
+        },
+        {
+          "prompt": "Critics warn that the new law could have a ___ effect on free speech.",
+          "options": ["freezing", "cooling", "cold", "chilling"],
+          "answer": 3,
+          "explanation": "A “chilling effect” = people stop expressing themselves because they fear consequences. It is a fixed expression."
+        },
+        {
+          "prompt": "The story was blown out of ___ by the tabloids.",
+          "options": ["proportion", "measure", "size", "dimension"],
+          "answer": 0,
+          "explanation": "“Blow something out of proportion” = make it seem much more serious than it is."
+        },
+        {
+          "prompt": "There is a fine ___ between satire and misinformation.",
+          "options": ["border", "line", "edge", "limit"],
+          "answer": 1,
+          "explanation": "“There’s a fine line between X and Y” = the difference is very small."
+        },
+        {
+          "prompt": "The influencer was accused of ___ her followers by not disclosing paid partnerships.",
+          "options": ["mistaking", "misusing", "misleading", "misplacing"],
+          "answer": 2,
+          "explanation": "To “mislead” someone = make them believe something untrue."
+        },
+        {
+          "prompt": "Her post was taken ___ because it violated the community guidelines.",
+          "options": ["away", "out", "off", "down"],
+          "answer": 3,
+          "explanation": "“Take down” a post/website = remove it from the internet."
+        },
+        {
+          "prompt": "The newspaper had to print a ___ after publishing false claims about the mayor.",
+          "options": ["correction", "repair", "revision", "improvement"],
+          "answer": 0,
+          "explanation": "A newspaper “prints a correction” (or a retraction) when it has published something false."
+        }
+      ]
+    },
+    {
+      "id": "voc-adverb-collocations",
+      "section": "vocabulary",
+      "type": "multiple_choice",
+      "title": "Adverb + adjective power pairs",
+      "instruction": "Strong adverb + adjective combinations make your arguments sound more convincing. Choose the adverb that collocates naturally in each sentence.",
+      "difficulty": "C1",
+      "estimated_minutes": 6,
+      "tags": ["collocations", "adverbs", "C1"],
+      "questions": [
+        {
+          "prompt": "Some apps are ___ addictive.",
+          "options": ["highly", "greatly", "heavily", "largely"],
+          "answer": 0,
+          "explanation": "“Highly addictive” is the standard collocation (also: highly effective, highly controversial)."
+        },
+        {
+          "prompt": "The decision was ___ criticised by human rights groups.",
+          "options": ["highly", "deeply", "heavily", "largely"],
+          "answer": 2,
+          "explanation": "“Heavily criticised” (or “widely criticised”). “Highly criticised” is a common learner mistake."
+        },
+        {
+          "prompt": "The effects of social media on mental health remain ___ contested.",
+          "options": ["warmly", "hotly", "burningly", "strongly"],
+          "answer": 1,
+          "explanation": "“Hotly contested / debated” = argued about with strong feelings."
+        },
+        {
+          "prompt": "Many parents are ___ concerned about cyberbullying.",
+          "options": ["fully", "largely", "highly", "deeply"],
+          "answer": 3,
+          "explanation": "“Deeply concerned / worried / divided” express strong emotion."
+        },
+        {
+          "prompt": "The leak was ___ reported in the international press.",
+          "options": ["widely", "broadly", "largely", "greatly"],
+          "answer": 0,
+          "explanation": "“Widely reported / known / used” = by many people or in many places."
+        },
+        {
+          "prompt": "It was ___ obvious that the photo had been edited.",
+          "options": ["brightly", "sharply", "glaringly", "loudly"],
+          "answer": 2,
+          "explanation": "“Glaringly obvious” = extremely obvious (also: blatantly obvious)."
+        },
+        {
+          "prompt": "Public opinion is ___ divided on the question of a social media ban.",
+          "options": ["highly", "deeply", "heavily", "largely"],
+          "answer": 1,
+          "explanation": "“Deeply divided” (also “sharply divided”) is the natural collocation."
+        }
+      ]
+    },
+    {
+      "id": "voc-sort-topics",
+      "section": "vocabulary",
+      "type": "sorting",
+      "title": "Build your topic word map",
+      "instruction": "Sort the terms into the four subtopics. This gives you a mind map of vocabulary you can use for different exam questions.",
+      "difficulty": "B2",
+      "estimated_minutes": 6,
+      "tags": ["sorting", "mind map"],
+      "categories": ["Privacy & data", "Journalism", "Social media", "Artificial intelligence"],
+      "items": [
+        {"text": "data breach", "category": "Privacy & data"},
+        {"text": "tracking cookies", "category": "Privacy & data"},
+        {"text": "informed consent", "category": "Privacy & data"},
+        {"text": "investigative reporting", "category": "Journalism"},
+        {"text": "editorial independence", "category": "Journalism"},
+        {"text": "protecting sources", "category": "Journalism"},
+        {"text": "engagement rate", "category": "Social media"},
+        {"text": "follower count", "category": "Social media"},
+        {"text": "going viral", "category": "Social media"},
+        {"text": "training data", "category": "Artificial intelligence"},
+        {"text": "synthetic media", "category": "Artificial intelligence"},
+        {"text": "large language model", "category": "Artificial intelligence"}
+      ],
+      "explanation": "Organising vocabulary by subtopic helps you find the right words quickly in the exam. Add your own terms to each category in your notes."
+    },
+    {
+      "id": "voc-sort-evaluating-sources",
+      "section": "vocabulary",
+      "type": "sorting",
+      "title": "Evaluating sources: positive or negative?",
+      "instruction": "Sort the adjectives: would you use them to praise a source or to criticise it? These words are perfect for analysing a text or image in the exam.",
+      "difficulty": "B2",
+      "estimated_minutes": 4,
+      "tags": ["sorting", "adjectives", "evaluation"],
+      "categories": ["Praising a source", "Criticising a source"],
+      "items": [
+        {"text": "reputable", "category": "Praising a source", "explanation": "having a good reputation"},
+        {"text": "well-sourced", "category": "Praising a source"},
+        {"text": "impartial", "category": "Praising a source", "explanation": "not supporting any side"},
+        {"text": "nuanced", "category": "Praising a source", "explanation": "showing small but important differences"},
+        {"text": "credible", "category": "Praising a source"},
+        {"text": "sensationalist", "category": "Criticising a source"},
+        {"text": "unsubstantiated", "category": "Criticising a source", "explanation": "not supported by evidence"},
+        {"text": "one-sided", "category": "Criticising a source"},
+        {"text": "misleading", "category": "Criticising a source"},
+        {"text": "partisan", "category": "Criticising a source", "explanation": "strongly supporting one political party or side"}
+      ],
+      "explanation": "Instead of saying a source is “good” or “bad”, say it is reputable, nuanced and well-sourced – or sensationalist, partisan and unsubstantiated."
+    },
+    {
+      "id": "voc-negative-prefixes",
+      "section": "vocabulary",
+      "type": "sorting",
+      "title": "Negative prefixes",
+      "instruction": "Which prefix makes each word negative or gives it the meaning “wrongly”? Sort each word under the correct prefix.",
+      "difficulty": "C1",
+      "estimated_minutes": 7,
+      "tags": ["word formation", "prefixes", "sorting"],
+      "categories": ["un-", "in-", "ir-", "il-", "dis-", "mis-"],
+      "items": [
+        {"text": "biased", "category": "un-"},
+        {"text": "reliable", "category": "un-"},
+        {"text": "verified", "category": "un-"},
+        {"text": "accurate", "category": "in-"},
+        {"text": "adequate", "category": "in-"},
+        {"text": "sensitive", "category": "in-"},
+        {"text": "responsible", "category": "ir-"},
+        {"text": "relevant", "category": "ir-"},
+        {"text": "reversible", "category": "ir-"},
+        {"text": "legal", "category": "il-"},
+        {"text": "legitimate", "category": "il-"},
+        {"text": "logical", "category": "il-"},
+        {"text": "honest", "category": "dis-"},
+        {"text": "approve", "category": "dis-"},
+        {"text": "advantage", "category": "dis-"},
+        {"text": "represent", "category": "mis-"},
+        {"text": "lead", "category": "mis-"},
+        {"text": "quote", "category": "mis-"}
+      ],
+      "explanation": "Patterns: ir- before r (irrelevant), il- before l (illegal), im- before p/m (impossible). mis- means “wrongly” (misquote = quote wrongly). These are rules of thumb, not laws – always check a dictionary."
+    },
+    {
+      "id": "voc-sort-phrases",
+      "section": "vocabulary",
+      "type": "sorting",
+      "title": "Phrases for structuring your talk",
+      "instruction": "Sort the phrases by their function in a monologue. Then choose one phrase from each group and use it in your next speaking practice.",
+      "difficulty": "B2",
+      "estimated_minutes": 5,
+      "tags": ["useful phrases", "structure", "sorting"],
+      "categories": ["Giving your opinion", "Adding a point", "Contrasting", "Concluding"],
+      "items": [
+        {"text": "As far as I’m concerned, …", "category": "Giving your opinion"},
+        {"text": "I’m firmly convinced that …", "category": "Giving your opinion"},
+        {"text": "What is more, …", "category": "Adding a point"},
+        {"text": "On top of that, …", "category": "Adding a point"},
+        {"text": "Having said that, …", "category": "Contrasting"},
+        {"text": "Admittedly, … but …", "category": "Contrasting"},
+        {"text": "All things considered, …", "category": "Concluding"},
+        {"text": "To sum up, …", "category": "Concluding"}
+      ],
+      "explanation": "Signposting phrases help the examiner follow your argument. “Having said that” and “Admittedly … but” are especially useful because they show you can see both sides."
+    },
+    {
+      "id": "voc-idioms",
+      "section": "vocabulary",
+      "type": "matching",
+      "title": "Idioms for media talk",
+      "instruction": "Match each idiom with its meaning. Using one or two idioms correctly in the exam shows a high level – but don’t overdo it.",
+      "difficulty": "Challenge",
+      "estimated_minutes": 7,
+      "tags": ["idioms", "C1"],
+      "left_label": "Idiom",
+      "right_label": "Meaning",
+      "pairs": [
+        {"left": "hit the headlines", "right": "suddenly become widely reported in the news"},
+        {"left": "jump on the bandwagon", "right": "join something because it is popular, not out of conviction"},
+        {"left": "take something with a pinch of salt", "right": "not completely believe something"},
+        {"left": "be in the public eye", "right": "be famous and watched closely by the media"},
+        {"left": "the tip of the iceberg", "right": "a small visible part of a much bigger problem"},
+        {"left": "a storm in a teacup", "right": "a lot of anger about something unimportant"},
+        {"left": "read between the lines", "right": "understand a meaning that is not stated directly"},
+        {"left": "bite the hand that feeds you", "right": "harm someone who supports or pays you"}
+      ],
+      "explanation": "Example uses: “Brands jumped on the bandwagon of TikTok marketing.” – “Influencers who criticise their sponsors risk biting the hand that feeds them.” – “Reported cases of cyberbullying may be just the tip of the iceberg.”"
+    }
+  ]
+}

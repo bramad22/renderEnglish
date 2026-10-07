@@ -1,0 +1,505 @@
+{
+  "id": "speaking",
+  "order": 3,
+  "title": "Speaking Prompts",
+  "short_title": "Speaking",
+  "description": "Exam-style monologue tasks with a stimulus, timer, notes, useful phrases, a model outline and a self-assessment checklist.",
+  "icon": "Mic",
+  "accent": "rose",
+  "intro": "Each prompt gives you a stimulus (a described picture, a short text, a headline or a quote) and a task. Prepare with the timer, make notes, then speak out loud – ideally record yourself on your phone. The model outline shows a possible structure and key ideas. It is not a script to memorise.",
+  "exercises": [
+    {
+      "id": "sp-phones-at-dinner",
+      "section": "speaking",
+      "type": "speaking_prompt",
+      "title": "Together alone at the dinner table",
+      "instruction": "Look at the picture description, prepare your talk, then speak for about three minutes. Afterwards, answer the follow-up questions.",
+      "difficulty": "B2",
+      "estimated_minutes": 10,
+      "tags": ["digital communication", "face-to-face", "family", "picture"],
+      "stimulus": {
+        "kind": "image",
+        "title": "Picture: a family dinner",
+        "content": "A family of four – two parents and two teenagers – is sitting at a dinner table at home. The food is on the table, but every person is looking at their own smartphone. Nobody is talking. A dog is sitting next to the table, looking up at them."
+      },
+      "task": "Describe the situation in the picture and explain what it suggests about communication in families today. Discuss whether digital devices bring families closer together or push them apart.",
+      "content_points": [
+        "describe and interpret the scene",
+        "possible reasons why everyone is on their phone",
+        "ways digital tools can also connect families",
+        "your own experience or opinion"
+      ],
+      "follow_up_questions": [
+        "Should families have rules about phones at mealtimes? Who should set them?",
+        "Do you think parents are good role models when it comes to phone use?",
+        "How has communication between generations changed because of messaging apps?",
+        "Is it rude to check your phone during a conversation? Does it depend on the situation?",
+        "What is lost when we communicate mainly through text messages?"
+      ],
+      "useful_phrases": [
+        {"label": "Describing a picture", "phrases": ["The picture shows …", "In the foreground / background, there is …", "What strikes me first is …", "The atmosphere seems rather …"]},
+        {"label": "Speculating", "phrases": ["They might be …", "It looks as if …", "Perhaps they have just …", "I get the impression that …"]},
+        {"label": "Moving from picture to topic", "phrases": ["This scene is typical of …", "This raises the question of whether …", "Many families will recognise this situation."]}
+      ],
+      "model_outline": [
+        {"heading": "1. Describe briefly (30 seconds)", "points": ["family dinner, everyone on their phone, nobody talking", "the dog as the only one paying attention – ironic detail"]},
+        {"heading": "2. Interpret", "points": ["“together alone” – physically present, mentally elsewhere", "possible reasons: habit, notifications, fear of missing out, work messages"]},
+        {"heading": "3. Discuss both sides", "points": ["push apart: fewer real conversations, less eye contact, poor role models", "bring closer: family group chats, video calls with relatives abroad, sharing photos"]},
+        {"heading": "4. Personal view and conclusion", "points": ["the device is not the problem – how and when we use it is", "suggestion: phone-free meals, as a rule for everyone, including parents"]}
+      ],
+      "prep_seconds": 120,
+      "speak_seconds": 180
+    },
+    {
+      "id": "sp-two-headlines",
+      "section": "speaking",
+      "type": "speaking_prompt",
+      "title": "Same story, different spin",
+      "instruction": "Compare the two (invented) headlines, prepare your talk and speak for about three to four minutes.",
+      "difficulty": "C1",
+      "estimated_minutes": 12,
+      "tags": ["journalism", "framing", "media literacy", "headlines"],
+      "stimulus": {
+        "kind": "headline",
+        "title": "Two headlines about the same event (invented for this task)",
+        "content": "Headline A: “TEEN SCREEN CHAOS: Phones Are Destroying Our Kids’ Brains, Warn Experts”\nHeadline B: “New study links heavy social media use to poorer sleep among teenagers; researchers call for further investigation”"
+      },
+      "task": "Compare the two headlines. Explain how language and framing can influence the way readers understand a story, and discuss what responsibility journalists and readers have.",
+      "content_points": [
+        "differences in language, tone and claims",
+        "possible target audiences and purposes",
+        "effects of sensational headlines on readers",
+        "what readers can do to avoid being misled"
+      ],
+      "follow_up_questions": [
+        "Why do some media outlets use sensational headlines? Is it only about money?",
+        "Many people only read headlines before sharing an article. What are the consequences?",
+        "Can a headline be completely neutral?",
+        "Should social media platforms reduce the reach of clickbait?",
+        "Which news sources do you trust, and why?"
+      ],
+      "useful_phrases": [
+        {"label": "Comparing", "phrases": ["Whereas headline A …, headline B …", "In contrast to …", "Both headlines refer to …, but …", "The most striking difference is …"]},
+        {"label": "Analysing language", "phrases": ["The use of capital letters suggests …", "The word “destroying” is highly emotive.", "Headline B is more cautious: it only says the study “links” …", "This is a classic example of framing."]}
+      ],
+      "model_outline": [
+        {"heading": "1. Introduce the stimulus", "points": ["two headlines, apparently about the same study on teenagers and screens"]},
+        {"heading": "2. Compare language and claims", "points": ["A: capitals, emotive verb “destroying”, vague “experts”, causal claim", "B: precise (sleep), cautious verb “links”, acknowledges need for more research", "A turns correlation into causation"]},
+        {"heading": "3. Explain the effects", "points": ["sensational framing triggers fear and clicks – the attention economy", "readers who only see headlines remember the exaggerated version", "long-term: loss of trust in media"]},
+        {"heading": "4. Responsibility and conclusion", "points": ["journalists: accuracy over clicks, headlines that match the article", "readers: read beyond the headline, check the original study (lateral reading)", "conclusion: framing is unavoidable, but exaggeration is a choice"]}
+      ],
+      "prep_seconds": 180,
+      "speak_seconds": 240
+    },
+    {
+      "id": "sp-influencer-career",
+      "section": "speaking",
+      "type": "speaking_prompt",
+      "title": "Dream job: influencer?",
+      "instruction": "Read the picture description, prepare and talk for about three minutes.",
+      "difficulty": "B2",
+      "estimated_minutes": 10,
+      "tags": ["influencers", "careers", "advertising", "picture"],
+      "stimulus": {
+        "kind": "image",
+        "title": "Picture: filming a product review",
+        "content": "A young woman of about twenty is sitting in her bedroom in front of a ring light and a smartphone on a tripod. She is smiling into the camera and holding up a skincare product. Behind her, several unopened parcels from brands are piled up. On her laptop screen you can see a notification: “New brand deal offer!”"
+      },
+      "task": "Describe the picture. Discuss the advantages and disadvantages of working as an influencer, and say whether you think it is a “real job”.",
+      "content_points": [
+        "describe the scene and what it suggests about the job",
+        "attractive sides of the job",
+        "pressures and risks",
+        "ethical questions about advertising"
+      ],
+      "follow_up_questions": [
+        "Why do you think so many young people say they would like to become influencers?",
+        "Should influencers need some kind of qualification or licence before they can earn money from advertising?",
+        "How can followers tell whether a recommendation is honest?",
+        "Do influencers have a responsibility towards young followers?",
+        "Would you trust a product more because an influencer recommended it?"
+      ],
+      "useful_phrases": [
+        {"label": "Advantages and disadvantages", "phrases": ["One major advantage is …", "On the downside, …", "The flip side is that …", "This comes at a price: …"]},
+        {"label": "Giving your opinion", "phrases": ["Personally, I would argue that …", "I can see why …, but …", "In my view, it depends on …"]}
+      ],
+      "model_outline": [
+        {"heading": "1. Describe", "points": ["home studio, ring light, product held to camera", "piles of free products and a brand deal – the business side"]},
+        {"heading": "2. Advantages", "points": ["creativity, independence, flexible hours", "income from brand deals, possibly large audience and influence"]},
+        {"heading": "3. Disadvantages and risks", "points": ["unstable income, depends on algorithms", "pressure to always be “on”, online hate, loss of privacy", "conflict between honesty and paid promotion; legal duty to label ads"]},
+        {"heading": "4. Opinion", "points": ["yes, it is a real job – marketing, editing, business skills", "but success is rare and often depends on luck, so it should not be the only plan"]}
+      ],
+      "prep_seconds": 120,
+      "speak_seconds": 180
+    },
+    {
+      "id": "sp-phone-ban-notice",
+      "section": "speaking",
+      "type": "speaking_prompt",
+      "title": "The new school rule",
+      "instruction": "Read the (invented) school notice, prepare and give your opinion in a structured talk of about three minutes.",
+      "difficulty": "B2",
+      "estimated_minutes": 10,
+      "tags": ["phone ban", "school", "screen time"],
+      "stimulus": {
+        "kind": "text",
+        "title": "Notice from the head teacher (invented)",
+        "content": "From next semester, mobile phones must be switched off and kept in lockers for the entire school day, including breaks. Exceptions can be made for medical reasons. Teachers may still use digital devices in lessons when they are needed for learning. We believe this will improve concentration, reduce cyberbullying and encourage students to talk to each other again."
+      },
+      "task": "Summarise the new rule and its reasons. Evaluate whether such a rule would be a good idea at your school, considering the views of students, teachers and parents.",
+      "content_points": [
+        "summarise the rule and the arguments given",
+        "evaluate each argument",
+        "consider different stakeholders",
+        "suggest an alternative or compromise"
+      ],
+      "follow_up_questions": [
+        "Is a ban during breaks going too far for students who are 18 or older?",
+        "How would parents react if they couldn’t reach their children during the day?",
+        "Do you think a ban would really reduce cyberbullying?",
+        "What could schools do instead of a ban to teach responsible phone use?",
+        "Should students have a say in school rules like this one?"
+      ],
+      "useful_phrases": [
+        {"label": "Evaluating arguments", "phrases": ["This argument is convincing because …", "I’m not entirely convinced that …", "That may be true for younger students, but …", "There is some evidence that …, although …"]},
+        {"label": "Suggesting a compromise", "phrases": ["A more reasonable approach might be …", "What about a compromise in which …?", "It would make more sense to …"]}
+      ],
+      "model_outline": [
+        {"heading": "1. Summarise", "points": ["phones in lockers all day, medical exceptions, digital devices still allowed in lessons", "three reasons: concentration, less cyberbullying, more real conversations"]},
+        {"heading": "2. Evaluate the reasons", "points": ["concentration: plausible – notifications are distracting", "cyberbullying: mostly happens after school, so a ban only moves it", "talking: breaks could become more social"]},
+        {"heading": "3. Stakeholders", "points": ["students: loss of autonomy, especially for adults", "teachers: easier lessons", "parents: safety concerns but often support rules"]},
+        {"heading": "4. Conclusion and compromise", "points": ["e.g. a ban in lessons, phone-free zones, but free use in breaks for older students", "combine rules with media literacy education"]}
+      ],
+      "prep_seconds": 120,
+      "speak_seconds": 180
+    },
+    {
+      "id": "sp-deepfake-scandal",
+      "section": "speaking",
+      "type": "speaking_prompt",
+      "title": "The fake voice message",
+      "instruction": "Read the fictional news report, prepare and speak for about four minutes.",
+      "difficulty": "C1",
+      "estimated_minutes": 12,
+      "tags": ["AI", "deepfakes", "elections", "misinformation"],
+      "stimulus": {
+        "kind": "text",
+        "title": "Fictional news report (invented for this task)",
+        "content": "Two days before a regional election, an audio clip spreads rapidly through messaging apps. In it, a well-known candidate appears to insult voters from rural areas. The candidate says the clip is an AI-generated fake. Experts are not yet able to confirm whether it is genuine. By the time they do, the election may already be over."
+      },
+      "task": "Explain why situations like this are a challenge for democracy. Discuss who should be responsible for preventing the damage caused by deepfakes, and what ordinary citizens can do.",
+      "content_points": [
+        "why timing and messaging apps make this scenario dangerous",
+        "the problem that real recordings can also be dismissed as fake",
+        "responsibilities of platforms, lawmakers, media and politicians",
+        "practical steps for citizens"
+      ],
+      "follow_up_questions": [
+        "Should creating political deepfakes be a criminal offence?",
+        "Is it realistic to expect people to check every clip before they share it?",
+        "How could a candidate prove that a recording is fake?",
+        "Are there any legitimate uses of deepfake technology?",
+        "Will people eventually stop believing any video or audio evidence?"
+      ],
+      "useful_phrases": [
+        {"label": "Explaining consequences", "phrases": ["This could lead to …", "As a result, voters might …", "The knock-on effect would be …", "This undermines trust in …"]},
+        {"label": "Assigning responsibility", "phrases": ["The main responsibility lies with …", "It is up to … to …", "… should be held accountable for …", "Responsibility is shared between …"]}
+      ],
+      "model_outline": [
+        {"heading": "1. Explain the problem", "points": ["timing: no time to verify before the vote", "messaging apps are private and hard to moderate", "emotional content spreads quickly"]},
+        {"heading": "2. The deeper threat", "points": ["voters may be manipulated", "the “liar’s dividend”: real scandals can be denied as fakes", "general loss of trust in evidence"]},
+        {"heading": "3. Responsibility", "points": ["platforms: labelling, slowing forwarding, quick fact-checks", "lawmakers: transparency rules (e.g. EU AI Act), penalties", "media: careful reporting, not amplifying unverified clips"]},
+        {"heading": "4. Citizens and conclusion", "points": ["pause before forwarding, look for reliable coverage, check the original source", "no single solution: technology, law and media literacy together"]}
+      ],
+      "prep_seconds": 180,
+      "speak_seconds": 240
+    },
+    {
+      "id": "sp-smart-speaker",
+      "section": "speaking",
+      "type": "speaking_prompt",
+      "title": "Is anyone listening?",
+      "instruction": "Read the picture description and speak for about three to four minutes about privacy in everyday life.",
+      "difficulty": "C1",
+      "estimated_minutes": 12,
+      "tags": ["privacy", "data", "smart devices", "picture"],
+      "stimulus": {
+        "kind": "image",
+        "title": "Picture: a smart speaker at home",
+        "content": "A cosy living room. A small child is talking to a smart speaker on a shelf, asking it a question. The child’s father is on the sofa, smiling and watching. A smartwatch on his wrist and a tablet on the table are also visible. A small light on the speaker shows that it is active."
+      },
+      "task": "Describe the picture and discuss the benefits and risks of smart devices in the home. Consider the question: how much privacy are we willing to give up for convenience?",
+      "content_points": [
+        "describe the scene and the role of technology in it",
+        "convenience and benefits of smart devices",
+        "privacy risks, especially for children",
+        "your personal attitude towards the trade-off"
+      ],
+      "follow_up_questions": [
+        "Do you read the privacy settings of the apps and devices you use? Why (not)?",
+        "Should children’s data be protected more strictly than adults’ data?",
+        "Is the phrase “I have nothing to hide” a good argument against privacy concerns?",
+        "How does the GDPR protect people in the EU?",
+        "Would you be willing to pay for a service if it did not collect your data?"
+      ],
+      "useful_phrases": [
+        {"label": "Discussing a trade-off", "phrases": ["It is a trade-off between … and …", "The price we pay for convenience is …", "On balance, …", "The benefits outweigh the risks if …"]},
+        {"label": "Expressing concern", "phrases": ["What worries me most is …", "It is unclear what happens to …", "There is a risk that …"]}
+      ],
+      "model_outline": [
+        {"heading": "1. Describe", "points": ["child asking a smart speaker, relaxed father", "many connected devices – a typical modern home"]},
+        {"heading": "2. Benefits", "points": ["convenience, quick answers, accessibility for elderly or disabled people", "fun and learning for children"]},
+        {"heading": "3. Risks", "points": ["devices listen for a wake word; recordings may be stored and analysed", "children cannot give meaningful consent", "data used for targeted advertising; risk of data breaches"]},
+        {"heading": "4. Opinion", "points": ["“nothing to hide” misunderstands privacy – it’s about control", "useful if settings are understood and rights (GDPR) are used"]}
+      ],
+      "prep_seconds": 180,
+      "speak_seconds": 240
+    },
+    {
+      "id": "sp-bystander",
+      "section": "speaking",
+      "type": "speaking_prompt",
+      "title": "Laughing along",
+      "instruction": "Read the picture description and speak for about three minutes about cyberbullying.",
+      "difficulty": "B2",
+      "estimated_minutes": 10,
+      "tags": ["cyberbullying", "school", "bystanders", "picture"],
+      "stimulus": {
+        "kind": "image",
+        "title": "Picture: in the school corridor",
+        "content": "A teenager is standing alone by a window in a school corridor, looking at a phone with a hurt expression. In the background, a group of students is gathered around another phone, laughing. One student in the group is not laughing and is looking towards the teenager by the window."
+      },
+      "task": "Describe the picture and what might be happening. Talk about why cyberbullying is particularly harmful, and what bystanders, schools and parents can do about it.",
+      "content_points": [
+        "describe the scene and speculate about the situation",
+        "differences between cyberbullying and traditional bullying",
+        "the role of bystanders",
+        "prevention and support"
+      ],
+      "follow_up_questions": [
+        "Why do many bystanders do nothing?",
+        "Should schools be responsible for what happens in students’ private group chats?",
+        "What would you do if you saw someone being bullied online?",
+        "Should social media platforms do more to prevent bullying?",
+        "Is anonymity online the main cause of cyberbullying?"
+      ],
+      "useful_phrases": [
+        {"label": "Speculating about a picture", "phrases": ["It looks as though …", "The student on the left might have …", "Judging by their expressions, …", "The one student who isn’t laughing seems to …"]},
+        {"label": "Making recommendations", "phrases": ["It is essential that …", "Schools ought to …", "One effective measure would be …", "Bystanders could …"]}
+      ],
+      "model_outline": [
+        {"heading": "1. Describe and speculate", "points": ["isolated student, hurt expression", "group laughing at a phone – maybe a post about the student", "one student hesitating: a possible ally"]},
+        {"heading": "2. Why it is so harmful", "points": ["no escape, 24/7", "large audience, content can be saved and shared", "anonymity lowers inhibitions"]},
+        {"heading": "3. Bystanders", "points": ["laughing or sharing makes it worse", "support the victim privately, report, don’t forward"]},
+        {"heading": "4. Schools and parents", "points": ["clear rules, contact person, prevention workshops", "parents: listen without blaming, keep evidence, involve school or police if needed"]}
+      ],
+      "prep_seconds": 120,
+      "speak_seconds": 180
+    },
+    {
+      "id": "sp-local-newspaper",
+      "section": "speaking",
+      "type": "speaking_prompt",
+      "title": "The empty newsroom",
+      "instruction": "Read the picture description and speak for about four minutes about the future of journalism.",
+      "difficulty": "C1",
+      "estimated_minutes": 12,
+      "tags": ["journalism", "local news", "democracy", "picture"],
+      "stimulus": {
+        "kind": "image",
+        "title": "Picture: a closed newspaper office",
+        "content": "The ground-floor window of an old building in a small town. Faded letters above the window read “Daily Courier – since 1921”. The room inside is empty except for a few chairs and old newspapers on the floor. A sign in the window says “To let”. A young man walks past without looking up from his phone."
+      },
+      "task": "Describe the picture and explain what it symbolises. Discuss why traditional newspapers are struggling and what society could lose if local journalism disappears.",
+      "content_points": [
+        "describe the image and its symbolism",
+        "reasons for the decline of traditional newspapers",
+        "the role of local journalism in democracy",
+        "possible solutions"
+      ],
+      "follow_up_questions": [
+        "Would you pay for a news subscription? Why (not)?",
+        "Can social media and citizen journalists replace professional local reporters?",
+        "Should governments financially support independent journalism? What are the risks?",
+        "Where do you get information about what is happening in your town or region?",
+        "Is a world without printed newspapers a problem, or just a change of format?"
+      ],
+      "useful_phrases": [
+        {"label": "Interpreting symbolism", "phrases": ["The picture symbolises …", "The contrast between … and … is significant.", "This detail could stand for …"]},
+        {"label": "Discussing causes and effects", "phrases": ["One of the main reasons is …", "This has resulted in …", "As a consequence, …", "In the long run, …"]}
+      ],
+      "model_outline": [
+        {"heading": "1. Describe and interpret", "points": ["a newspaper with a 100-year history has closed", "the man on his phone: the shift from print to digital"]},
+        {"heading": "2. Causes", "points": ["advertising revenue moved to online platforms", "readers expect free news", "news consumed via social media feeds"]},
+        {"heading": "3. What we lose", "points": ["nobody reports on the local council, courts or schools", "less accountability, more room for rumours", "local identity and community"]},
+        {"heading": "4. Solutions", "points": ["digital subscriptions, non-profit models, public funding with safeguards", "readers’ willingness to pay for quality"]}
+      ],
+      "prep_seconds": 180,
+      "speak_seconds": 240
+    },
+    {
+      "id": "sp-simon-quote",
+      "section": "speaking",
+      "type": "speaking_prompt",
+      "title": "A poverty of attention",
+      "instruction": "Interpret the quotation and develop a well-argued talk of about four minutes. This is an extra-challenge task: there is no picture to describe, so your ideas carry the whole talk.",
+      "difficulty": "Challenge",
+      "estimated_minutes": 14,
+      "tags": ["attention economy", "quote", "information overload"],
+      "stimulus": {
+        "kind": "quote",
+        "title": "Herbert Simon, economist and psychologist (1971)",
+        "content": "“A wealth of information creates a poverty of attention.”"
+      },
+      "task": "Explain what the quotation means and why it may be even more relevant today than in 1971. Discuss the consequences for individuals and society and suggest how people can protect their attention.",
+      "content_points": [
+        "interpretation of the quotation",
+        "why it fits the digital age (attention economy)",
+        "consequences for individuals (focus, wellbeing) and society (news, democracy)",
+        "strategies for protecting attention"
+      ],
+      "follow_up_questions": [
+        "Is attention something individuals can control, or are they up against systems designed to capture it?",
+        "Has the internet made us better or worse informed?",
+        "Do you think short-video platforms change the way people think?",
+        "Should tech companies be forced to change addictive design features?",
+        "What is one habit you could change to protect your attention?"
+      ],
+      "useful_phrases": [
+        {"label": "Interpreting a quotation", "phrases": ["What Simon seems to mean is …", "The paradox here is that …", "Put simply, …", "This idea is still highly relevant because …"]},
+        {"label": "Sophisticated linking", "phrases": ["This, in turn, means that …", "It follows that …", "Paradoxically, …", "Not only … but also …"]}
+      ],
+      "model_outline": [
+        {"heading": "1. Interpret", "points": ["paradox: more information does not mean better understanding", "attention is limited – it becomes the scarce resource"]},
+        {"heading": "2. Today’s relevance", "points": ["endless feeds, notifications, autoplay", "business model: free services sell attention to advertisers"]},
+        {"heading": "3. Consequences", "points": ["individuals: shorter focus, stress, less deep reading", "society: emotional or extreme content wins, complex issues get less attention"]},
+        {"heading": "4. Solutions and conclusion", "points": ["personal: turn off notifications, phone-free time, choose slow media", "structural: regulation of addictive design (e.g. dark patterns ban in the DSA)", "attention as a resource worth protecting"]}
+      ],
+      "prep_seconds": 240,
+      "speak_seconds": 240
+    },
+    {
+      "id": "sp-digital-detox",
+      "section": "speaking",
+      "type": "speaking_prompt",
+      "title": "Pay to switch off?",
+      "instruction": "Read the advertisement and speak for about three minutes.",
+      "difficulty": "B2",
+      "estimated_minutes": 10,
+      "tags": ["screen time", "wellbeing", "digital detox"],
+      "stimulus": {
+        "kind": "text",
+        "title": "Advertisement (invented)",
+        "content": "UNPLUG WEEKEND – Leave your phone at reception and rediscover the real world! Two days in the Alps with hiking, cooking, yoga and real conversations. No Wi-Fi. No notifications. No regrets. Only €390 per person."
+      },
+      "task": "Explain the idea of a “digital detox” and why such offers exist. Discuss whether people need to pay for a break from technology, and how a healthier balance could be achieved in everyday life.",
+      "content_points": [
+        "what the advertisement offers and who it targets",
+        "why people feel the need to disconnect",
+        "whether a weekend can change habits",
+        "everyday strategies for balance"
+      ],
+      "follow_up_questions": [
+        "Would you go on a weekend like this? Why (not)?",
+        "Is it ironic that people pay money to do without technology?",
+        "Can a short detox have a lasting effect?",
+        "Which apps or features make it hardest for you to put your phone down?",
+        "Should employers respect a “right to disconnect” after working hours?"
+      ],
+      "useful_phrases": [
+        {"label": "Discussing a product", "phrases": ["The advert is aimed at …", "It appeals to people who …", "The slogan suggests that …"]},
+        {"label": "Giving advice", "phrases": ["A more realistic approach would be to …", "It might help to …", "Small changes such as … can make a big difference."]}
+      ],
+      "model_outline": [
+        {"heading": "1. The advert", "points": ["weekend in the Alps without phones, expensive", "targets stressed, well-off adults"]},
+        {"heading": "2. Why people want to disconnect", "points": ["constant availability, notifications, stress", "feeling of losing time to scrolling"]},
+        {"heading": "3. Evaluation", "points": ["can be a useful wake-up call", "but short-term: habits return on Monday", "irony: commercialising a break from commercial technology"]},
+        {"heading": "4. Everyday balance", "points": ["phone-free bedroom, notification settings, screen-time limits", "conclusion: balance is a daily practice, not a product"]}
+      ],
+      "prep_seconds": 120,
+      "speak_seconds": 180
+    },
+    {
+      "id": "sp-ai-homework",
+      "section": "speaking",
+      "type": "speaking_prompt",
+      "title": "Why write it myself?",
+      "instruction": "Read the online comment and give a structured response of about three to four minutes.",
+      "difficulty": "C1",
+      "estimated_minutes": 12,
+      "tags": ["AI", "education", "writing", "AI-generated content"],
+      "stimulus": {
+        "kind": "text",
+        "title": "Comment in a student forum (invented)",
+        "content": "“Honestly, why should I still learn to write essays? An AI chatbot writes better texts than I do in five seconds. Schools should stop pretending it’s 2010 and teach us how to use these tools instead.” – user “future_ready_17”"
+      },
+      "task": "Respond to the comment. Discuss the role of AI tools in education and whether learning to write without them is still important.",
+      "content_points": [
+        "what the writer gets right",
+        "what writing teaches beyond the final text",
+        "risks: errors, invented facts, dependence",
+        "how schools could integrate AI responsibly"
+      ],
+      "follow_up_questions": [
+        "Should AI tools be allowed in exams?",
+        "How can teachers tell whether a text was written by a student or by AI – and does it matter?",
+        "What jobs might change most because of generative AI?",
+        "Can AI-generated texts be trusted? Why (not)?",
+        "How did you use AI tools when preparing for exams, and what did you learn from that?"
+      ],
+      "useful_phrases": [
+        {"label": "Responding to a view", "phrases": ["The writer has a point when they say …", "However, the comment overlooks …", "I partly agree, but …", "This argument assumes that …"]},
+        {"label": "Hedging", "phrases": ["It could be argued that …", "To some extent, …", "This is not necessarily the case.", "In many cases, …"]}
+      ],
+      "model_outline": [
+        {"heading": "1. Acknowledge the point", "points": ["AI tools are powerful and will be part of working life", "schools should teach how to use them critically"]},
+        {"heading": "2. Why writing still matters", "points": ["writing is thinking: structuring arguments, finding your own voice", "you can only judge AI output if you have the skills yourself"]},
+        {"heading": "3. Risks", "points": ["AI can produce confident but false statements", "dependence, loss of skills, issues of honesty in assessment"]},
+        {"heading": "4. Conclusion", "points": ["not either/or: learn the skill AND learn the tool", "e.g. use AI for brainstorming, then check, edit and take responsibility"]}
+      ],
+      "prep_seconds": 180,
+      "speak_seconds": 240
+    },
+    {
+      "id": "sp-protest-livestream",
+      "section": "speaking",
+      "type": "speaking_prompt",
+      "title": "Everyone is a reporter",
+      "instruction": "Read the picture description and speak for about four minutes about citizen journalism.",
+      "difficulty": "C1",
+      "estimated_minutes": 12,
+      "tags": ["citizen journalism", "social media", "activism", "picture"],
+      "stimulus": {
+        "kind": "image",
+        "title": "Picture: livestreaming a protest",
+        "content": "A crowded street during a protest at night. In the centre, a young woman holds her phone high above the crowd, livestreaming the scene. On her screen you can see the number of viewers: 48,000. Police officers are standing at the edge of the crowd. Further back, a professional camera team from a TV channel is filming."
+      },
+      "task": "Describe the picture. Discuss the role of ordinary citizens in reporting news today, comparing citizen journalism with professional journalism.",
+      "content_points": [
+        "describe and interpret the contrast in the picture",
+        "strengths of citizen journalism",
+        "weaknesses and risks",
+        "the continuing role of professional journalists"
+      ],
+      "follow_up_questions": [
+        "Can citizen videos be used as evidence – for example of police violence?",
+        "What risks do people take when they film protests?",
+        "How can viewers know whether a livestream shows the full picture?",
+        "Should professional media use material filmed by citizens? Under what conditions?",
+        "Have you ever filmed or shared footage of a news event?"
+      ],
+      "useful_phrases": [
+        {"label": "Comparing", "phrases": ["Compared with professional journalists, …", "One key difference is that …", "Unlike …, citizen reporters …", "Both … and … have a role to play."]},
+        {"label": "Weighing up", "phrases": ["On the one hand, …; on the other hand, …", "While it is true that …, …", "This is a double-edged sword."]}
+      ],
+      "model_outline": [
+        {"heading": "1. Describe and interpret", "points": ["livestream with a large audience vs. professional TV team", "power has shifted: anyone can broadcast"]},
+        {"heading": "2. Strengths", "points": ["immediacy, perspectives from inside events", "can document abuses of power", "reach in countries with censorship"]},
+        {"heading": "3. Weaknesses", "points": ["no editing or fact-checking, emotional, partial view", "out-of-context clips can mislead", "safety and privacy of people filmed"]},
+        {"heading": "4. Conclusion", "points": ["complementary: citizens provide raw material, professionals verify and contextualise"]}
+      ],
+      "prep_seconds": 180,
+      "speak_seconds": 240
+    }
+  ]
+}

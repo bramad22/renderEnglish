@@ -1,0 +1,251 @@
+{
+  "id": "quiz",
+  "order": 7,
+  "title": "Quiz & Games",
+  "short_title": "Quiz",
+  "description": "Speed rounds, timed challenges, myth-busting, matching games and a media timeline – revise fast and beat your high score.",
+  "icon": "Trophy",
+  "accent": "fuchsia",
+  "intro": "Quick, competitive revision. Timed quizzes give points for correct answers and a bonus for speed, and your best score is saved on this device. Challenge a classmate to beat it!",
+  "exercises": [
+    {
+      "id": "qz-facts-speed-round",
+      "section": "quiz",
+      "type": "timed_quiz",
+      "title": "Speed round: key facts",
+      "instruction": "Answer as many questions as you can before the timer runs out. You get points for every correct answer and a bonus for the time left.",
+      "difficulty": "B2",
+      "estimated_minutes": 2,
+      "tags": ["timed", "facts"],
+      "total_seconds": 90,
+      "questions": [
+        {"prompt": "Which EU regulation has protected personal data since 2018?", "options": ["DSA", "GDPR", "AI Act", "Privacy Shield"], "answer": 1, "explanation": "The General Data Protection Regulation (GDPR) has applied since May 2018."},
+        {"prompt": "Who popularised the term “filter bubble”?", "options": ["Tim Berners-Lee", "Shoshana Zuboff", "Eli Pariser", "Jonathan Haidt"], "answer": 2, "explanation": "Eli Pariser, in his 2011 book The Filter Bubble."},
+        {"prompt": "What does Reporters Without Borders (RSF) publish every year?", "options": ["The World Press Freedom Index", "A list of fake news websites", "A ranking of social media platforms", "The Word of the Year"], "answer": 0, "explanation": "RSF has published the World Press Freedom Index annually since 2002."},
+        {"prompt": "False information spread deliberately to deceive is called …", "options": ["misinformation", "malinformation", "satire", "disinformation"], "answer": 3, "explanation": "Disinformation = false + intent to deceive or harm."},
+        {"prompt": "Collins Dictionary’s Word of the Year 2017 was …", "options": ["selfie", "fake news", "post-truth", "emoji"], "answer": 1, "explanation": "“Fake news”. (“Post-truth” was Oxford’s Word of the Year 2016.)"},
+        {"prompt": "Whose legal cases led the EU’s top court to strike down Safe Harbour and the Privacy Shield?", "options": ["Max Schrems", "Edward Snowden", "Mark Zuckerberg", "Tim Berners-Lee"], "answer": 0, "explanation": "The Austrian privacy activist Max Schrems."},
+        {"prompt": "What is the first step of the SIFT method?", "options": ["Search", "Share", "Stop", "Screenshot"], "answer": 2, "explanation": "SIFT = Stop, Investigate the source, Find better coverage, Trace claims to their original context."},
+        {"prompt": "A one-sided feeling of closeness to an influencer is called a …", "options": ["filter bubble", "parasocial relationship", "echo chamber", "digital footprint"], "answer": 1, "explanation": "Parasocial relationship."},
+        {"prompt": "In the 2018 MIT study, who was mainly responsible for spreading false news faster?", "options": ["Bots", "Journalists", "Advertisers", "Humans"], "answer": 3, "explanation": "Bots spread true and false news at similar rates; humans made the difference."},
+        {"prompt": "Which EU law bans “dark patterns” on online platforms?", "options": ["Digital Services Act", "GDPR", "Copyright Directive", "AI Act"], "answer": 0, "explanation": "The Digital Services Act (DSA)."}
+      ]
+    },
+    {
+      "id": "qz-vocab-blitz",
+      "section": "quiz",
+      "type": "timed_quiz",
+      "title": "Vocabulary blitz",
+      "instruction": "Sixty seconds, ten questions. How many can you get right?",
+      "difficulty": "B2",
+      "estimated_minutes": 1,
+      "tags": ["timed", "vocabulary"],
+      "total_seconds": 60,
+      "questions": [
+        {"prompt": "A video that spreads very fast online goes …", "options": ["viral", "virtual", "vital", "visual"], "answer": 0, "explanation": "go viral"},
+        {"prompt": "The opposite of “biased” is …", "options": ["impartial", "partial", "partisan", "passive"], "answer": 0, "explanation": "impartial = not supporting any side"},
+        {"prompt": "To “debunk” a claim means to …", "options": ["share it", "prove it is false", "repeat it", "invent it"], "answer": 1, "explanation": "debunk = show that something is false"},
+        {"prompt": "A person who reveals wrongdoing inside an organisation is a …", "options": ["gatekeeper", "spin doctor", "whistle-blower", "lurker"], "answer": 2, "explanation": "whistle-blower"},
+        {"prompt": "“The platform took the post down.” means it …", "options": ["removed it", "promoted it", "criticised it", "printed it"], "answer": 0, "explanation": "take down = remove"},
+        {"prompt": "Which is correct?", "options": ["an information", "some informations", "some information", "many informations"], "answer": 2, "explanation": "“Information” is uncountable."},
+        {"prompt": "“Doomscrolling” means …", "options": ["deleting your account", "scrolling through bad news compulsively", "posting angry comments", "reading only headlines"], "answer": 1, "explanation": "doom + scrolling"},
+        {"prompt": "Journalists hold the powerful to …", "options": ["count", "account", "attention", "accountability"], "answer": 1, "explanation": "hold someone to account"},
+        {"prompt": "The noun of “anonymous” is …", "options": ["anonymousness", "anonymity", "anonymism", "anonym"], "answer": 1, "explanation": "anonymity"},
+        {"prompt": "Clickbait is mainly designed to …", "options": ["inform readers", "attract clicks", "protect privacy", "correct mistakes"], "answer": 1, "explanation": "Clickbait prioritises clicks over information."}
+      ]
+    },
+    {
+      "id": "qz-challenge-run",
+      "section": "quiz",
+      "type": "timed_quiz",
+      "title": "The 2-minute challenge",
+      "instruction": "Extra challenge: fifteen harder questions mixing facts, vocabulary, grammar and critical thinking. You have two minutes.",
+      "difficulty": "Challenge",
+      "estimated_minutes": 3,
+      "tags": ["timed", "mixed", "challenge"],
+      "total_seconds": 120,
+      "questions": [
+        {"prompt": "“Everyone uses this app, so it must be fine.” Which fallacy is this?", "options": ["Straw man", "Appeal to popularity", "Slippery slope", "Ad hominem"], "answer": 1, "explanation": "Appeal to popularity (bandwagon)."},
+        {"prompt": "No sooner ___ the post gone live than it was shared thousands of times.", "options": ["has", "did", "had", "was"], "answer": 2, "explanation": "No sooner + had + subject + past participle."},
+        {"prompt": "The “liar’s dividend” means that …", "options": ["liars earn money from fake news", "genuine evidence can be dismissed as fake", "fact-checkers are paid per lie", "deepfakes are always detected"], "answer": 1, "explanation": "Because fakes exist, real evidence can be denied."},
+        {"prompt": "Which of these is NOT a right under the GDPR?", "options": ["Access to your data", "Correction of incorrect data", "Deletion in certain cases", "Free internet access"], "answer": 3, "explanation": "The GDPR is about personal data, not about internet access."},
+        {"prompt": "Platforms should be responsible ___ what they recommend.", "options": ["of", "for", "about", "to"], "answer": 1, "explanation": "responsible for"},
+        {"prompt": "“Astroturfing” is …", "options": ["a fake grassroots campaign", "an online gardening trend", "a type of malware", "censorship of sports news"], "answer": 0, "explanation": "Astroturf is artificial grass – a campaign made to look like genuine public support."},
+        {"prompt": "Jonathan Haidt’s 2024 book is called …", "options": ["The Filter Bubble", "Reclaiming Conversation", "The Anxious Generation", "The Age of Surveillance Capitalism"], "answer": 2, "explanation": "The Anxious Generation."},
+        {"prompt": "Which court struck down the EU–US Privacy Shield in 2020?", "options": ["The Court of Justice of the European Union", "The European Court of Human Rights", "The US Supreme Court", "The Austrian Constitutional Court"], "answer": 0, "explanation": "The Court of Justice of the European Union (CJEU), in the “Schrems II” case."},
+        {"prompt": "“False balance” in reporting means …", "options": ["reporting only one side", "presenting unequal positions as equally valid", "making a correction", "balancing ads and content"], "answer": 1, "explanation": "E.g. giving a fringe view the same weight as a strong scientific consensus."},
+        {"prompt": "If I ___ the source, I wouldn’t have shared the post.", "options": ["would have checked", "checked", "have checked", "had checked"], "answer": 3, "explanation": "Third conditional: if + past perfect."},
+        {"prompt": "The aim of a SLAPP is to …", "options": ["protect journalists", "silence critics through legal costs", "rank press freedom", "label advertising"], "answer": 1, "explanation": "Strategic lawsuit against public participation."},
+        {"prompt": "“Prebunking” means …", "options": ["deleting false posts", "warning people about manipulation techniques in advance", "fact-checking after publication", "blocking bots"], "answer": 1, "explanation": "Pre-emptive debunking, also called inoculation."},
+        {"prompt": "German “eventuell” means …", "options": ["eventually", "finally", "possibly", "immediately"], "answer": 2, "explanation": "A classic false friend: eventually = schließlich."},
+        {"prompt": "Which feature did its designer, Aza Raskin, later say he regretted?", "options": ["Infinite scroll", "The like button", "Read receipts", "Autoplay"], "answer": 0, "explanation": "Infinite scroll."},
+        {"prompt": "Content credentials (e.g. C2PA) attach information about …", "options": ["a user’s password", "a file’s origin and editing history", "an influencer’s income", "a website’s advertisers"], "answer": 1, "explanation": "They record how and by whom a file was created or edited."}
+      ]
+    },
+    {
+      "id": "qz-fact-or-myth",
+      "section": "quiz",
+      "type": "multiple_choice",
+      "title": "Fact or myth?",
+      "instruction": "Is each statement a fact or a myth? Some of these myths are repeated so often that many people believe them.",
+      "difficulty": "C1",
+      "estimated_minutes": 5,
+      "tags": ["myths", "facts", "critical thinking"],
+      "questions": [
+        {"prompt": "“Only 7 per cent of communication is verbal.”", "options": ["Fact", "Myth"], "answer": 1, "explanation": "A misinterpretation of Albert Mehrabian’s experiments, which only concerned judging feelings when signals contradict each other."},
+        {"prompt": "“GDPR fines can be higher than 20 million euros.”", "options": ["Fact", "Myth"], "answer": 0, "explanation": "Fines can reach 4 % of worldwide annual turnover if that is higher than 20 million euros."},
+        {"prompt": "“In the MIT study, bots were the main reason why false news spread faster.”", "options": ["Fact", "Myth"], "answer": 1, "explanation": "Bots spread true and false news at similar rates; humans were mainly responsible."},
+        {"prompt": "“The internet and the World Wide Web are the same thing.”", "options": ["Fact", "Myth"], "answer": 1, "explanation": "The internet is the global network; the Web (invented by Tim Berners-Lee in 1989) is one service that runs on it, like email."},
+        {"prompt": "“Once you delete a post, it is gone forever.”", "options": ["Fact", "Myth"], "answer": 1, "explanation": "Screenshots, copies and archives can keep content alive."},
+        {"prompt": "“Private or incognito browsing makes you anonymous to the websites you visit.”", "options": ["Fact", "Myth"], "answer": 1, "explanation": "Incognito mode mainly stops your browser from saving history on your device. Websites, employers or internet providers can still see your activity."},
+        {"prompt": "“In the EU, influencers must clearly label paid content as advertising.”", "options": ["Fact", "Myth"], "answer": 0, "explanation": "Commercial communication must be recognisable as such."},
+        {"prompt": "“Professional fact-checkers often leave a website quickly to see what other sources say about it.”", "options": ["Fact", "Myth"], "answer": 0, "explanation": "This is called lateral reading."}
+      ]
+    },
+    {
+      "id": "qz-who-is-who",
+      "section": "quiz",
+      "type": "matching",
+      "title": "Who’s who in media debates?",
+      "instruction": "Match each person with the idea, work or event they are known for. Mentioning a name and idea correctly in the exam shows real background knowledge.",
+      "difficulty": "B2",
+      "estimated_minutes": 5,
+      "tags": ["people", "background knowledge"],
+      "left_label": "Person",
+      "right_label": "Known for",
+      "pairs": [
+        {"left": "Eli Pariser", "right": "the “filter bubble”"},
+        {"left": "Shoshana Zuboff", "right": "“surveillance capitalism”"},
+        {"left": "Max Schrems", "right": "privacy cases against Facebook at the EU’s top court"},
+        {"left": "Sherry Turkle", "right": "Reclaiming Conversation – texting vs. face-to-face talk"},
+        {"left": "Herbert Simon", "right": "“a wealth of information creates a poverty of attention”"},
+        {"left": "Tim Berners-Lee", "right": "inventing the World Wide Web"},
+        {"left": "Jonathan Haidt", "right": "The Anxious Generation – phones and teen mental health"},
+        {"left": "Woodward & Bernstein", "right": "investigating the Watergate scandal"}
+      ],
+      "explanation": "Use names carefully in the exam: “As the scholar Shoshana Zuboff has argued, …” sounds impressive – but only if you are sure of the facts."
+    },
+    {
+      "id": "qz-acronyms",
+      "section": "quiz",
+      "type": "matching",
+      "title": "Acronym match",
+      "instruction": "Match the acronyms with their full forms.",
+      "difficulty": "B2",
+      "estimated_minutes": 4,
+      "tags": ["acronyms", "vocabulary"],
+      "left_label": "Acronym",
+      "right_label": "Full form",
+      "pairs": [
+        {"left": "GDPR", "right": "General Data Protection Regulation"},
+        {"left": "DSA", "right": "Digital Services Act"},
+        {"left": "VPN", "right": "virtual private network"},
+        {"left": "FOMO", "right": "fear of missing out"},
+        {"left": "SLAPP", "right": "strategic lawsuit against public participation"},
+        {"left": "UGC", "right": "user-generated content"},
+        {"left": "LLM", "right": "large language model"},
+        {"left": "RSF", "right": "Reporters Without Borders"}
+      ],
+      "explanation": "RSF comes from the French name: Reporters sans frontières. In the exam, say the full form the first time you use an acronym."
+    },
+    {
+      "id": "qz-media-timeline",
+      "section": "quiz",
+      "type": "ordering",
+      "title": "Media timeline",
+      "instruction": "Put these milestones in media history in chronological order, starting with the earliest.",
+      "difficulty": "B2",
+      "estimated_minutes": 4,
+      "tags": ["history", "timeline", "ordering"],
+      "items": [
+        "Gutenberg’s printing press spreads in Europe (15th century)",
+        "The first commercial radio broadcasts (1920s)",
+        "Television becomes a mass medium in many Western countries (1950s)",
+        "Tim Berners-Lee proposes the World Wide Web (1989)",
+        "Facebook is launched (2004)",
+        "Apple introduces the iPhone (2007)",
+        "ChatGPT is released to the public (2022)"
+      ],
+      "explanation": "Each new medium has triggered both hopes and fears. Comparing today’s debates about smartphones or AI with earlier debates about radio or TV can be a sophisticated point in your exam."
+    },
+    {
+      "id": "qz-fact-vs-opinion",
+      "section": "quiz",
+      "type": "sorting",
+      "title": "Fact or opinion?",
+      "instruction": "Sort each statement: is it a verifiable fact (it can be checked) or an opinion / value judgement?",
+      "difficulty": "B2",
+      "estimated_minutes": 4,
+      "tags": ["media literacy", "fact vs opinion", "sorting"],
+      "categories": ["Verifiable fact", "Opinion or value judgement"],
+      "items": [
+        {"text": "The GDPR has applied in the EU since 2018.", "category": "Verifiable fact"},
+        {"text": "Collins Dictionary chose “fake news” as its Word of the Year in 2017.", "category": "Verifiable fact"},
+        {"text": "Australia has passed a law setting a minimum age of 16 for accounts on many social media platforms.", "category": "Verifiable fact"},
+        {"text": "Tim Berners-Lee invented the World Wide Web.", "category": "Verifiable fact"},
+        {"text": "Social media is the worst invention of the century.", "category": "Opinion or value judgement"},
+        {"text": "Influencers should be ashamed of themselves.", "category": "Opinion or value judgement"},
+        {"text": "Printed newspapers are more pleasant to read than news apps.", "category": "Opinion or value judgement"},
+        {"text": "Every school ought to ban phones.", "category": "Opinion or value judgement", "explanation": "“Ought to / should” usually signals a value judgement."}
+      ],
+      "explanation": "A fact can be checked and proved true or false. An opinion expresses a judgement or preference. Watch out: a fact can be false (it is still a factual claim), and opinions can be well or badly argued."
+    },
+    {
+      "id": "qz-odd-one-out",
+      "section": "quiz",
+      "type": "multiple_choice",
+      "title": "Odd one out",
+      "instruction": "Which word does NOT belong with the others? Think about meaning, not spelling.",
+      "difficulty": "C1",
+      "estimated_minutes": 4,
+      "tags": ["vocabulary", "word relationships"],
+      "questions": [
+        {"prompt": "debunk – verify – fact-check – fabricate", "options": ["debunk", "verify", "fact-check", "fabricate"], "answer": 3, "explanation": "The other three are about establishing the truth; fabricate = invent something false."},
+        {"prompt": "viral – trending – obsolete – popular", "options": ["viral", "trending", "obsolete", "popular"], "answer": 2, "explanation": "Obsolete = out of date, no longer used."},
+        {"prompt": "impartial – objective – biased – neutral", "options": ["impartial", "objective", "biased", "neutral"], "answer": 2, "explanation": "Biased is the opposite of the other three."},
+        {"prompt": "privacy – anonymity – confidentiality – publicity", "options": ["privacy", "anonymity", "confidentiality", "publicity"], "answer": 3, "explanation": "Publicity = public attention; the others are about keeping information private."},
+        {"prompt": "mislead – deceive – manipulate – inform", "options": ["mislead", "deceive", "manipulate", "inform"], "answer": 3, "explanation": "Inform is neutral or positive; the others describe dishonest influence."},
+        {"prompt": "censor – suppress – silence – amplify", "options": ["censor", "suppress", "silence", "amplify"], "answer": 3, "explanation": "Amplify = make louder or spread more widely."}
+      ]
+    },
+    {
+      "id": "qz-design-features",
+      "section": "quiz",
+      "type": "matching",
+      "title": "How apps keep you hooked",
+      "instruction": "Match each design feature with its effect on users.",
+      "difficulty": "C1",
+      "estimated_minutes": 5,
+      "tags": ["attention economy", "design", "matching"],
+      "left_label": "Feature",
+      "right_label": "Effect",
+      "pairs": [
+        {"left": "infinite scroll", "right": "removes natural stopping points"},
+        {"left": "autoplay", "right": "starts the next video before you decide to watch it"},
+        {"left": "push notifications", "right": "pull you back into the app"},
+        {"left": "like counters", "right": "turn social approval into a visible number"},
+        {"left": "streaks", "right": "make taking a break feel like losing something"},
+        {"left": "read receipts", "right": "create pressure to reply immediately"}
+      ],
+      "explanation": "Being able to name and explain specific design features makes your argument about the attention economy much more convincing than saying “apps are addictive”."
+    },
+    {
+      "id": "qz-name-the-concept",
+      "section": "quiz",
+      "type": "multiple_choice",
+      "title": "Name the concept",
+      "instruction": "Read each scenario and choose the concept it illustrates.",
+      "difficulty": "C1",
+      "estimated_minutes": 5,
+      "tags": ["concepts", "scenarios", "media literacy"],
+      "questions": [
+        {"prompt": "A political party pays hundreds of people to post “spontaneous” messages of support online.", "options": ["Astroturfing", "Prebunking", "Doxxing", "Lurking"], "answer": 0, "explanation": "Fake grassroots support = astroturfing."},
+        {"prompt": "A TV show presents a climate scientist and a climate-change denier as equally credible experts.", "options": ["Confirmation bias", "False balance", "Clickbait", "Self-censorship"], "answer": 1, "explanation": "Giving equal weight to unequal positions = false balance."},
+        {"prompt": "You stop watching the news because it makes you feel anxious and powerless.", "options": ["Doomscrolling", "Echo chamber", "News avoidance", "Information disorder"], "answer": 2, "explanation": "Deliberately avoiding news = news avoidance."},
+        {"prompt": "Before an election, short videos teach people to recognise common manipulation tricks.", "options": ["Fact-checking", "Content moderation", "Debunking", "Prebunking"], "answer": 3, "explanation": "Warning people in advance = prebunking."},
+        {"prompt": "On a website, the “Accept all” button is big and colourful, while “Reject” is hidden in small grey text.", "options": ["A dark pattern", "A filter bubble", "A paywall", "A deepfake"], "answer": 0, "explanation": "A design that pressures you into a choice = dark pattern."},
+        {"prompt": "A real photo from a 2015 flood is shared as if it showed a flood that happened yesterday.", "options": ["A deepfake", "A cheapfake / content out of context", "Satire", "Malinformation"], "answer": 1, "explanation": "A genuine image in a false context, without AI manipulation."}
+      ]
+    }
+  ]
+}

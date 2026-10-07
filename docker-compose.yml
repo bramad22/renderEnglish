@@ -1,0 +1,20 @@
+# Start everything:  docker compose up -d --build
+# Open:              http://localhost:8080   (change with WEB_PORT, e.g. WEB_PORT=3000 docker compose up -d)
+# Stop:              docker compose down
+services:
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    # Content is mounted read-only so you can edit backend/content/*.json and run
+    # `docker compose restart backend` without rebuilding.
+    volumes:
+      - ./backend/content:/app/content:ro
+
+  web:
+    build: ./frontend
+    restart: unless-stopped
+    ports:
+      - "${WEB_PORT:-8080}:80"
+    depends_on:
+      backend:
+        condition: service_healthy

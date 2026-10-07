@@ -1,0 +1,361 @@
+{
+  "id": "roleplays",
+  "order": 5,
+  "title": "Role-plays & Dilemmas",
+  "short_title": "Role-plays",
+  "description": "Interaction tasks with role cards, plus ethical dilemmas and case studies with guiding questions.",
+  "icon": "Users",
+  "accent": "emerald",
+  "intro": "Role-plays train the interactive skills you need in the exam: reacting, persuading, compromising and asking questions. Practise with a partner – each person reads only their own role card. If you practise alone, prepare both roles and argue them one after the other. Dilemmas have no single correct answer: what counts is how well you reason.",
+  "exercises": [
+    {
+      "id": "rp-phone-ban-meeting",
+      "section": "roleplays",
+      "type": "roleplay",
+      "title": "School forum: the phone ban",
+      "instruction": "Work in groups of three. Each person reads one role card only. Hold a 6–8 minute meeting and try to reach an agreement.",
+      "difficulty": "B2",
+      "estimated_minutes": 15,
+      "tags": ["phone ban", "school", "negotiation"],
+      "situation": "The head teacher has proposed a complete ban on mobile phones during the school day, including breaks. Before the school forum votes, a meeting is held with a student representative, a parent representative and the head teacher.",
+      "roles": [
+        {"name": "Student representative", "card": "You represent all students, including those who are already 18. Many students are angry about the proposal. You accept that phones are distracting in lessons, but you think a ban during breaks treats older students like children.", "goals": ["Defend students’ freedom during breaks", "Show that you take the concerns seriously", "Propose a fair compromise"]},
+        {"name": "Head teacher", "card": "Teachers have complained about constant distraction and several cases of students secretly filming others. You believe a clear, simple rule is easier to enforce than a complicated compromise.", "goals": ["Explain the problems clearly", "Keep the rule simple and enforceable", "Stay open to reasonable suggestions"]},
+        {"name": "Parent representative", "card": "Parents are divided. Some support the ban because they worry about screen time and cyberbullying. Others want to be able to reach their children, for example if plans change.", "goals": ["Represent both groups of parents", "Ask about emergencies and communication", "Help the others find common ground"]}
+      ],
+      "useful_phrases": [
+        {"label": "Negotiating", "phrases": ["Would you be willing to …?", "What if we …?", "I could accept that, provided that …", "Let’s try to find a solution that works for everyone."]},
+        {"label": "Chairing / moving on", "phrases": ["Shall we move on to …?", "So, to summarise what we’ve agreed so far …", "Let’s hear what … thinks."]}
+      ],
+      "debrief": [
+        "Did your group reach an agreement? What was it?",
+        "Which arguments were the most persuasive, and why?",
+        "Which phrases helped you to negotiate politely?"
+      ]
+    },
+    {
+      "id": "rp-parent-talk",
+      "section": "roleplays",
+      "type": "roleplay",
+      "title": "Kitchen-table talk: my first account",
+      "instruction": "Work in pairs. Read your role card and have a conversation of about five minutes. Try to understand the other person’s point of view.",
+      "difficulty": "B2",
+      "estimated_minutes": 10,
+      "tags": ["parents", "social media", "young people"],
+      "situation": "A 14-year-old wants to open a public account on a popular video app because all their friends have one. Their parent is worried. They talk about it in the kitchen after dinner.",
+      "roles": [
+        {"name": "Teenager (14)", "card": "You feel left out because your friends talk about videos and trends you can’t see. You want to post dance and comedy videos. You think your parent doesn’t understand how the app works and is exaggerating the risks.", "goals": ["Explain why the account matters to you socially", "Show that you know about the risks", "Suggest rules you would accept"]},
+        {"name": "Parent", "card": "You have read about cyberbullying, contact from strangers and addictive design. You don’t want to forbid everything, but you think a public account is too risky at 14. You also want to understand why it matters so much.", "goals": ["Explain your concerns calmly", "Ask questions to understand your child", "Agree on conditions, e.g. a private account or time limits"]}
+      ],
+      "useful_phrases": [
+        {"label": "Expressing feelings and concerns", "phrases": ["I feel like …", "What worries me is …", "I understand why you feel that way, but …", "It’s not that I don’t trust you; it’s just that …"]},
+        {"label": "Reaching agreement", "phrases": ["How about we try … for a month?", "Would it be OK if …?", "Deal – as long as …"]}
+      ],
+      "debrief": [
+        "What conditions did you agree on?",
+        "Was the conversation fair to both sides?",
+        "Would the conversation be different if the teenager were 17?"
+      ]
+    },
+    {
+      "id": "rp-journalist-influencer",
+      "section": "roleplays",
+      "type": "roleplay",
+      "title": "Interview: the influencer and the journalist",
+      "instruction": "Work in pairs. The journalist prepares questions; the influencer prepares their defence. Conduct a 5–7 minute interview.",
+      "difficulty": "C1",
+      "estimated_minutes": 15,
+      "tags": ["influencers", "journalism", "advertising", "interview"],
+      "situation": "A popular fitness influencer has been accused of promoting a protein supplement for months without labelling the posts as advertising. A journalist from a national newspaper has been granted an interview.",
+      "roles": [
+        {"name": "Journalist", "card": "You have evidence that the influencer received payments from the supplement brand. You want clear answers, but you need to remain fair and professional. Your readers want to know whether followers were misled.", "goals": ["Ask open and follow-up questions", "Confront the influencer with the evidence politely but firmly", "Find out what the influencer will change"]},
+        {"name": "Influencer", "card": "You did receive money, but you genuinely use the product and believe in it. You admit that some posts were not labelled clearly, partly because you thought hashtags at the end were enough. You are worried about your reputation and your contracts.", "goals": ["Explain your side honestly", "Avoid sounding defensive or evasive", "Show that you have learned from the situation"]}
+      ],
+      "useful_phrases": [
+        {"label": "Interviewing", "phrases": ["Could you explain why …?", "With respect, that doesn’t answer my question.", "So are you saying that …?", "How do you respond to critics who say …?"]},
+        {"label": "Responding under pressure", "phrases": ["Let me be clear about this: …", "I accept that …, and I regret …", "That’s a fair question.", "With hindsight, I should have …"]}
+      ],
+      "debrief": [
+        "Did the journalist get clear answers? Which questions worked best?",
+        "Did the influencer sound credible? Why (not)?",
+        "Should there be consequences for the influencer? Which ones?"
+      ]
+    },
+    {
+      "id": "rp-newsroom-leak",
+      "section": "roleplays",
+      "type": "roleplay",
+      "title": "Newsroom: publish now or verify first?",
+      "instruction": "Work in pairs. You have five minutes to make a decision together. Then present your decision and reasons to the class (or record it).",
+      "difficulty": "C1",
+      "estimated_minutes": 15,
+      "tags": ["journalism", "ethics", "verification", "breaking news"],
+      "situation": "At 9 p.m., a regional news website receives a video that seems to show a well-known mayor accepting an envelope of cash. The source is anonymous. Other media may receive the video soon. The mayor’s office has not responded to requests for comment.",
+      "roles": [
+        {"name": "Reporter", "card": "You received the video. You think it is genuine, and if a competitor publishes first, your website loses the story. Public interest is high: the mayor is responsible for big public contracts.", "goals": ["Argue for publishing quickly", "Suggest ways to publish responsibly, e.g. with clear caveats", "Respond to the editor’s concerns"]},
+        {"name": "Editor-in-chief", "card": "You are responsible for the website’s reputation and legal risks. The video could be manipulated, edited out of context or AI-generated. A false accusation could destroy the mayor’s reputation and lead to a lawsuit.", "goals": ["Insist on verification standards", "Ask what has been checked so far", "Decide on a clear next step"]}
+      ],
+      "useful_phrases": [
+        {"label": "Weighing risks", "phrases": ["The risk of … is greater than the risk of …", "If we get this wrong, …", "We can’t afford to …", "On the other hand, if we wait, …"]},
+        {"label": "Making a decision", "phrases": ["So, what we’ve decided is …", "Our next step will be to …", "We’ll publish only if …"]}
+      ],
+      "debrief": [
+        "What did you decide, and why?",
+        "What steps could a newsroom take to verify such a video?",
+        "Is being first or being right more important in journalism today?"
+      ]
+    },
+    {
+      "id": "rp-uncle-viral-post",
+      "section": "roleplays",
+      "type": "roleplay",
+      "title": "The family group chat",
+      "instruction": "Work in pairs. Have a conversation of about five minutes. The aim is not to “win” but to change a mind without damaging the relationship.",
+      "difficulty": "B2",
+      "estimated_minutes": 10,
+      "tags": ["misinformation", "family", "persuasion"],
+      "situation": "Your uncle regularly shares dramatic posts in the family group chat. Today he shared a post claiming that a common food additive is “secretly poisoning children” – with no source. You decide to talk to him at a family lunch.",
+      "roles": [
+        {"name": "You (student)", "card": "You quickly checked the claim and found that reliable health authorities do not support it. You love your uncle and don’t want to embarrass him, but you think he should stop forwarding unchecked posts.", "goals": ["Raise the topic tactfully", "Explain how you checked the claim", "Suggest simple steps he can take before sharing"]},
+        {"name": "Uncle", "card": "You share these posts because you care about the family’s health. You don’t trust big companies or official institutions very much. You don’t like being told by younger people that you are wrong.", "goals": ["Defend your intentions", "Express your distrust honestly", "Only change your mind if you feel respected"]}
+      ],
+      "useful_phrases": [
+        {"label": "Raising a sensitive topic", "phrases": ["Can I ask you something about that post?", "I know you meant well, but …", "I was curious, so I looked into it …"]},
+        {"label": "Persuading respectfully", "phrases": ["Have you thought about …?", "What would convince you that …?", "I’m not saying you’re wrong to be worried, but …"]}
+      ],
+      "debrief": [
+        "Which strategies worked best to avoid an argument?",
+        "Why is it often hard to correct misinformation in families?",
+        "What role does trust play in what people believe?"
+      ]
+    },
+    {
+      "id": "rp-moderation-panel",
+      "section": "roleplays",
+      "type": "roleplay",
+      "title": "Moderation panel: satire or hate?",
+      "instruction": "Extra challenge. Work in groups of three. As a platform’s content panel, decide within eight minutes whether the post stays online, gets a label, has its reach reduced, or is removed.",
+      "difficulty": "Challenge",
+      "estimated_minutes": 20,
+      "tags": ["content moderation", "free speech", "satire", "hate speech"],
+      "situation": "A satirical account with a large following has posted a cartoon that mocks a religious group’s customs in order to criticise a politician who belongs to that group. The post has received thousands of complaints, but also thousands of shares from people defending satire. The platform must decide.",
+      "roles": [
+        {"name": "Free-expression advocate", "card": "You believe satire is essential in a democracy and that offensive content is not automatically illegal. Removing the post would set a dangerous precedent.", "goals": ["Defend the post as political satire", "Distinguish between offending and inciting hatred", "Accept a label only as a last resort"]},
+        {"name": "Trust & safety lead", "card": "You are concerned that the cartoon targets a whole religious group, not just the politician, and that comments under the post include threats. You must protect users from hate.", "goals": ["Explain the potential harm", "Point to the hateful comments", "Push for at least reduced reach"]},
+        {"name": "Legal adviser", "card": "Your job is to check the law and the platform’s own rules. In the EU, illegal content must be acted on once reported, but rules on hate speech differ between countries. You want a decision that can be explained publicly.", "goals": ["Ask the others to define their terms precisely", "Consider different legal contexts", "Help the panel reach a justifiable decision"]}
+      ],
+      "useful_phrases": [
+        {"label": "Precise distinctions", "phrases": ["The key distinction here is between … and …", "That may be offensive, but is it …?", "Where exactly do we draw the line?", "By that logic, …"]},
+        {"label": "Reaching a group decision", "phrases": ["Can we agree that …?", "It seems we have a consensus on …", "Let’s put it to a vote."]}
+      ],
+      "debrief": [
+        "What decision did your panel reach, and how did you justify it?",
+        "Should private companies make these decisions at all, or should courts?",
+        "How would your decision change if the cartoon mocked a group without any connection to a politician?"
+      ]
+    },
+    {
+      "id": "dil-group-chat-screenshot",
+      "section": "roleplays",
+      "type": "dilemma",
+      "title": "Dilemma: the screenshot",
+      "instruction": "Read the situation, think about the options and perspectives, then explain what you would do and why (2–3 minutes). Compare your reasoning with the model answer.",
+      "difficulty": "B2",
+      "estimated_minutes": 8,
+      "tags": ["cyberbullying", "friendship", "ethics"],
+      "case": "In your class group chat, someone has posted a screenshot of a private message a classmate sent to their crush. People are reacting with laughing emojis. The classmate isn’t in the group. Your best friend posted the screenshot.",
+      "options": [
+        "Do nothing – it’s not your business.",
+        "Write in the group that it isn’t funny and ask your friend to delete it.",
+        "Talk to your friend privately and ask them to delete it.",
+        "Tell the classmate or a teacher about it."
+      ],
+      "guiding_questions": [
+        "What harm could the screenshot cause?",
+        "How might your friendship be affected by each option?",
+        "Would your answer change if the classmate were your friend?",
+        "What responsibility do people who only react with emojis have?"
+      ],
+      "perspectives": [
+        {"stakeholder": "The classmate", "view": "Deeply embarrassed; may feel betrayed and humiliated in front of the whole class."},
+        {"stakeholder": "Your friend", "view": "May have thought it was harmless fun and could feel attacked if confronted publicly."},
+        {"stakeholder": "The rest of the class", "view": "Many may feel uncomfortable but follow the group; one person speaking up can change the dynamic."}
+      ],
+      "model_answer": "A strong answer rejects doing nothing because silence lets the humiliation continue. It weighs a private conversation (protects the friendship, often more effective) against a public reaction (shows others that it is not acceptable). A convincing solution combines steps: message the friend privately and ask them to delete it immediately; if they refuse, say in the group that it should be removed; consider checking on the classmate. The answer should mention that a screenshot can spread further, which is why speed matters."
+    },
+    {
+      "id": "dil-accident-photo",
+      "section": "roleplays",
+      "type": "dilemma",
+      "title": "Dilemma: the accident photo",
+      "instruction": "Read the case and decide what you would do. Explain your reasoning in a short talk (2–3 minutes).",
+      "difficulty": "B2",
+      "estimated_minutes": 8,
+      "tags": ["privacy", "ethics", "citizen journalism"],
+      "case": "On your way to school you see a serious car accident at a dangerous crossing that people have complained about for years. Emergency services are already there. You take a photo in which an injured person can be recognised. A local news page asks followers to send pictures, saying it could finally put pressure on the town to make the crossing safer.",
+      "options": [
+        "Send the photo as it is.",
+        "Send it only with the person made unrecognisable.",
+        "Don’t send it, but write to the news page and the town about the crossing.",
+        "Delete the photo."
+      ],
+      "guiding_questions": [
+        "Whose interests are involved?",
+        "Does the good purpose justify publishing a picture of an injured person?",
+        "How would you feel if you or a family member were in the photo?",
+        "Should you have taken the photo in the first place?"
+      ],
+      "perspectives": [
+        {"stakeholder": "The injured person and family", "view": "A recognisable photo could hurt them deeply, especially if relatives see it online before they are informed."},
+        {"stakeholder": "The local community", "view": "Has a real interest in a safer crossing; visual evidence may create pressure."},
+        {"stakeholder": "The news page", "view": "Wants engaging content; responsible outlets blur faces and avoid sensational images."}
+      ],
+      "model_answer": "A good answer recognises the conflict between the public interest (road safety) and the injured person’s dignity and privacy. Most people would reject sending a recognisable photo: the same goal can be achieved without exposing a victim – by blurring the person, photographing only the crossing later, or writing to the town. The answer might also question the reflex to film emergencies at all and mention that photos can spread uncontrollably once posted."
+    },
+    {
+      "id": "dil-sponsored-product",
+      "section": "roleplays",
+      "type": "dilemma",
+      "title": "Dilemma: the faulty sponsor",
+      "instruction": "Put yourself in the influencer’s position. Discuss the options and present your decision with reasons.",
+      "difficulty": "C1",
+      "estimated_minutes": 10,
+      "tags": ["influencers", "ethics", "advertising"],
+      "case": "You are a tech influencer with 300,000 followers. A headphone brand pays you well for a long-term partnership, which is your main income. Several followers now report that the headphones break after a few weeks. You test a new pair and notice the same problem. Your contract does not allow you to criticise the brand publicly.",
+      "options": [
+        "Keep promoting the product and ignore the complaints.",
+        "Stop promoting the product quietly without explanation.",
+        "Talk to the brand first and give them a chance to respond.",
+        "Tell your followers openly about the problem, even if it breaks the contract."
+      ],
+      "guiding_questions": [
+        "What do you owe your followers? What do you owe the brand?",
+        "What are the legal and financial risks of each option?",
+        "How could each option affect your credibility in the long run?",
+        "Should contracts be allowed to forbid criticism of a product?"
+      ],
+      "perspectives": [
+        {"stakeholder": "Followers", "view": "Trusted your recommendation and spent money; they expect honesty."},
+        {"stakeholder": "The brand", "view": "Paid for positive promotion and may want time to fix the problem."},
+        {"stakeholder": "You", "view": "Your income depends on the contract, but your career depends on your credibility."}
+      ],
+      "model_answer": "A strong answer rejects option 1 as deceptive and probably unlawful in the long run. It sees option 3 as a responsible first step (fair to the partner, protects you legally) but sets a clear limit: if the brand does not act, followers must be warned, because credibility is an influencer’s real capital. It may also argue that clauses forbidding honest criticism are ethically problematic and show the structural conflict in influencer marketing."
+    },
+    {
+      "id": "dil-whistleblower-intern",
+      "section": "roleplays",
+      "type": "dilemma",
+      "title": "Dilemma: the intern’s discovery",
+      "instruction": "Read the case and work through the guiding questions. Then present your decision in a structured talk of about three minutes.",
+      "difficulty": "C1",
+      "estimated_minutes": 12,
+      "tags": ["privacy", "whistle-blowing", "data", "ethics"],
+      "case": "During a summer internship at a successful start-up, you discover that the company’s popular fitness app secretly shares users’ location data with advertising partners, although the privacy policy says it doesn’t. When you mention it to your supervisor, she tells you to “forget about it” and reminds you that you signed a confidentiality agreement. You hope to get a permanent job there after school.",
+      "options": [
+        "Forget about it, as your supervisor said.",
+        "Raise the issue with someone higher up in the company.",
+        "Report it to the data protection authority.",
+        "Give the information to a journalist."
+      ],
+      "guiding_questions": [
+        "Who is harmed if you stay silent?",
+        "What are the risks for you personally with each option?",
+        "In what order would you try the options, and why?",
+        "Does the confidentiality agreement change your moral obligation?"
+      ],
+      "perspectives": [
+        {"stakeholder": "Users", "view": "Their location data reveals sensitive information about their daily lives; they were told it was not shared."},
+        {"stakeholder": "The company", "view": "Fears fines and reputational damage; may argue it is a mistake that can be fixed internally."},
+        {"stakeholder": "You", "view": "Torn between your career, loyalty and your sense of right and wrong."}
+      ],
+      "model_answer": "A well-reasoned answer usually proposes an escalation ladder: first raise the issue internally at a higher level, documenting what you found; if nothing happens, contact the data protection authority (in Austria, the Datenschutzbehörde), which is the official channel. Going to the press is a last resort. The answer should recognise the personal risks but argue that a confidentiality agreement cannot oblige someone to hide illegal practices. Mentioning that EU rules offer protection for whistle-blowers who report breaches through proper channels shows extra knowledge."
+    },
+    {
+      "id": "dil-publish-name",
+      "section": "roleplays",
+      "type": "dilemma",
+      "title": "Dilemma: name and photo?",
+      "instruction": "Extra challenge. You are the editor of a local newspaper. Weigh the arguments and present your decision as if explaining it to your readers.",
+      "difficulty": "Challenge",
+      "estimated_minutes": 15,
+      "tags": ["journalism", "ethics", "privacy", "presumption of innocence"],
+      "case": "A 19-year-old from your town has been arrested on suspicion of planning a violent attack. Social media is already full of rumours, and some people are sharing a name – which may be the wrong person. Your reporter has confirmed the suspect’s identity through reliable sources. Readers are demanding information.",
+      "options": [
+        "Publish the full name and a photo.",
+        "Publish only the first name and initial of the surname, without a photo.",
+        "Report the arrest without any identifying details.",
+        "Publish the information and explicitly correct the false rumours."
+      ],
+      "guiding_questions": [
+        "What does the “presumption of innocence” mean for reporting?",
+        "Could publishing the real name protect the wrongly accused person?",
+        "What consequences could publication have for the suspect’s family?",
+        "How do social media rumours change the responsibilities of professional journalists?"
+      ],
+      "perspectives": [
+        {"stakeholder": "The suspect", "view": "Has not been convicted; a name in the newspaper can follow them forever, even if they are found innocent."},
+        {"stakeholder": "The wrongly accused person", "view": "Is being harassed online because of a false rumour."},
+        {"stakeholder": "The public", "view": "Has a legitimate interest in safety and accurate information."}
+      ],
+      "model_answer": "A sophisticated answer recognises a real conflict of values: the presumption of innocence and privacy versus public interest and the need to stop harmful rumours. Many quality newspapers protect suspects’ identities (e.g. first name plus initial, no photo) until a conviction, unless there is overwhelming public interest. A strong solution might combine options 2 and 4: report responsibly without full identification, but state clearly that the person named on social media is not involved. The answer should explain that professional journalism differs from social media precisely by following such standards."
+    },
+    {
+      "id": "dil-ai-art-prize",
+      "section": "roleplays",
+      "type": "dilemma",
+      "title": "Dilemma: the AI art prize",
+      "instruction": "Read the case and discuss it from different perspectives. Then decide how the jury should react.",
+      "difficulty": "C1",
+      "estimated_minutes": 10,
+      "tags": ["AI", "creativity", "fairness", "education"],
+      "case": "A student wins first prize in the school’s digital art competition. Afterwards, it turns out that the image was created with an AI image generator. The student spent many hours writing and refining prompts and editing the result. The rules did not mention AI. Other participants who drew their work by hand are upset.",
+      "options": [
+        "Let the student keep the prize – the rules did not forbid AI.",
+        "Withdraw the prize and give it to the second-placed entry.",
+        "Let the student keep the prize, but create separate categories in the future.",
+        "Hold a new vote with full information about how each work was made."
+      ],
+      "guiding_questions": [
+        "Is writing prompts a creative skill? Is it the same as drawing?",
+        "Did the student act dishonestly by not mentioning AI?",
+        "What is the purpose of a school art competition?",
+        "How should competitions deal with AI in the future?"
+      ],
+      "perspectives": [
+        {"stakeholder": "The winner", "view": "Invested time and creativity and followed the rules as written."},
+        {"stakeholder": "The other participants", "view": "Feel they competed in a different discipline under unfair conditions."},
+        {"stakeholder": "The jury and school", "view": "Want to be fair and send a clear message about AI and honesty."}
+      ],
+      "model_answer": "A strong answer distinguishes between breaking a rule and lacking transparency. Since AI was not forbidden, withdrawing the prize retroactively seems unfair; but competitions depend on a shared understanding of the task, and many would say the student should have disclosed their method. A balanced solution: the student keeps the prize (or it is shared), the school apologises for unclear rules, and future competitions require disclosure and have separate categories. The answer should reflect on what “creativity” and “authorship” mean when AI is involved."
+    },
+    {
+      "id": "dil-location-tracking",
+      "section": "roleplays",
+      "type": "dilemma",
+      "title": "Dilemma: always on the map",
+      "instruction": "Read the case and consider all perspectives. Present your view in 2–3 minutes.",
+      "difficulty": "B2",
+      "estimated_minutes": 8,
+      "tags": ["privacy", "parents", "trust", "surveillance"],
+      "case": "Sophie, 16, finds out that her parents have been secretly tracking her location through an app on her phone for a year. They say it is only for her safety, because she often takes the bus home late from training. Sophie feels betrayed and wants them to delete the app.",
+      "options": [
+        "The parents should delete the app immediately.",
+        "The parents may keep it, but only with Sophie’s agreement and clear rules.",
+        "The parents are right to keep tracking her – safety comes first.",
+        "Location sharing should be mutual: parents share their location too."
+      ],
+      "guiding_questions": [
+        "Is secret tracking different from open location sharing?",
+        "At what age should teenagers have full privacy?",
+        "How can parents balance safety and trust?",
+        "Can surveillance make young people less safe in the long run, e.g. by damaging trust?"
+      ],
+      "perspectives": [
+        {"stakeholder": "Sophie", "view": "Feels treated like a child and spied on; trust has been damaged."},
+        {"stakeholder": "Her parents", "view": "Worried about her safety and believe they acted out of love."},
+        {"stakeholder": "A family counsellor", "view": "Would focus on rebuilding trust through open agreements rather than secret control."}
+      ],
+      "model_answer": "A good answer criticises the secrecy more than the tracking itself: monitoring a 16-year-old without her knowledge undermines trust and her right to privacy. A convincing solution is a transparent agreement (option 2 or 4), e.g. location sharing only on the way home from training, with Sophie able to see when it is on. The answer should conclude that trust and communication protect teenagers more than surveillance."
+    }
+  ]
+}

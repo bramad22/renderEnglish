@@ -1,0 +1,870 @@
+{
+  "id": "key-facts",
+  "order": 1,
+  "title": "Key Facts & Background",
+  "short_title": "Key Facts",
+  "description": "Short texts and case studies on the big issues: misinformation, algorithms, privacy, influencers, press freedom, AI and more.",
+  "icon": "Newspaper",
+  "accent": "indigo",
+  "intro": "Each exercise starts with a short background text written for this app. Read it carefully, then answer the questions. The texts give you facts and examples you can use in your exam – but always check facts before you quote them.",
+  "exercises": [
+    {
+      "id": "kf-hashtags-movements",
+      "section": "key-facts",
+      "type": "multiple_choice",
+      "title": "From hashtags to movements",
+      "instruction": "Read the text about social media and activism. Then choose the best answer for each question.",
+      "difficulty": "B2",
+      "estimated_minutes": 8,
+      "tags": ["social media", "activism", "society"],
+      "input_text": {
+        "title": "From Hashtags to Movements",
+        "paragraphs": [
+          "Social media platforms have changed not only how people keep in touch with friends but also how they organise politically. During the protests across North Africa and the Middle East in 2010 and 2011, often called the Arab Spring, activists used platforms such as Facebook and Twitter to coordinate demonstrations and to share footage with international audiences. Commentators at the time sometimes spoke of “Twitter revolutions”, a label that many researchers later criticised as exaggerated, because the protests were rooted in long-standing economic and political grievances.",
+          "Hashtag activism has since become a familiar phenomenon. In 2017, #MeToo spread worldwide after allegations of sexual abuse against the film producer Harvey Weinstein, encouraging large numbers of people to speak publicly about harassment. A year later, the Swedish student Greta Thunberg began her school strike for the climate, which grew into the global Fridays for Future movement, largely organised through social media.",
+          "Critics, however, warn of “slacktivism”: the idea that liking or sharing a post can give people the feeling of having contributed without requiring any real commitment. Others point out that online visibility can expose activists to harassment and surveillance, particularly under authoritarian governments.",
+          "Most researchers today take a middle position. Social media, they argue, does not cause social movements, but it can lower the cost of organising, help messages travel faster and connect people who would otherwise never have met. Whether this energy leads to lasting change usually depends on what happens offline."
+        ],
+        "note": "Background text written for this app."
+      },
+      "questions": [
+        {
+          "prompt": "Why did many researchers criticise the label “Twitter revolutions”?",
+          "options": [
+            "Twitter was not available in the region at the time.",
+            "It ignored the deeper economic and political causes of the protests.",
+            "Most protesters preferred Facebook to Twitter.",
+            "The protests did not achieve any of their aims."
+          ],
+          "answer": 1,
+          "explanation": "The text says the protests were “rooted in long-standing economic and political grievances”, so calling them Twitter revolutions overstates the role of the platform."
+        },
+        {
+          "prompt": "What does the term “slacktivism” refer to?",
+          "options": [
+            "Activism organised by students who skip school",
+            "Protest movements that turn violent",
+            "Online support that requires little real effort or commitment",
+            "Government surveillance of online activists"
+          ],
+          "answer": 2,
+          "explanation": "Slacktivism (slacker + activism) describes liking or sharing a post that gives people the feeling of having helped “without requiring any real commitment”."
+        },
+        {
+          "prompt": "Which statement best summarises the “middle position” in the last paragraph?",
+          "options": [
+            "Social media makes organising easier, but lasting change depends on offline action.",
+            "Social media is the main cause of modern protest movements.",
+            "Social media has no real influence on political movements.",
+            "Social media mainly harms activists by exposing them to surveillance."
+          ],
+          "answer": 0,
+          "explanation": "The researchers say social media “does not cause” movements but lowers the cost of organising, and that change “depends on what happens offline”."
+        },
+        {
+          "prompt": "The word “grievances” (paragraph 1) is closest in meaning to …",
+          "options": [
+            "celebrations",
+            "election results",
+            "rumours",
+            "complaints about unfair treatment"
+          ],
+          "answer": 3,
+          "explanation": "A grievance is a real or imagined reason to complain, especially about unfair treatment."
+        }
+      ]
+    },
+    {
+      "id": "kf-information-disorder",
+      "section": "key-facts",
+      "type": "true_false_not_given",
+      "title": "Beyond “fake news”: information disorder",
+      "instruction": "Read the text. Decide if each statement is TRUE (the text says so), FALSE (the text says the opposite) or NOT GIVEN (the text does not say).",
+      "difficulty": "C1",
+      "estimated_minutes": 10,
+      "tags": ["misinformation", "disinformation", "fake news"],
+      "input_text": {
+        "title": "Why Researchers Avoid the Term “Fake News”",
+        "paragraphs": [
+          "The term “fake news” became so popular after 2016 that Collins Dictionary chose it as its Word of the Year in 2017. Many researchers, however, avoid the term. It is vague, and politicians increasingly use it to dismiss any reporting they dislike, including accurate journalism.",
+          "In a 2017 report for the Council of Europe, Claire Wardle and Hossein Derakhshan proposed the broader concept of “information disorder” and distinguished between three types. Misinformation is false information that is shared without the intention to cause harm – for example, when someone forwards an outdated warning because they genuinely believe it. Disinformation is false information that is deliberately created or shared to cause harm or to mislead. Malinformation is genuine information that is shared to cause harm, such as leaking someone’s private messages to damage their reputation.",
+          "The distinction matters because each type requires a different response. Misinformation can often be reduced through better media literacy and quick corrections, while disinformation campaigns may be organised and well funded, sometimes by state actors, and therefore call for investigation and regulation. Malinformation raises questions of privacy and ethics rather than of truth.",
+          "The same piece of content can also change category as it travels. A satirical article may be published as a joke, but once it is shared without context by people who take it seriously, it functions as misinformation."
+        ],
+        "note": "Background text written for this app, based on Wardle & Derakhshan (2017), Council of Europe."
+      },
+      "statements": [
+        {
+          "statement": "Collins Dictionary named “fake news” its Word of the Year in 2017.",
+          "answer": "true",
+          "explanation": "Paragraph 1 states this directly."
+        },
+        {
+          "statement": "Wardle and Derakhshan recommend making the term “fake news” illegal.",
+          "answer": "not_given",
+          "explanation": "The text says many researchers avoid the term, but nothing is said about banning it by law."
+        },
+        {
+          "statement": "People who spread misinformation intend to cause harm.",
+          "answer": "false",
+          "explanation": "Misinformation is shared “without the intention to cause harm”. Harmful intent is what defines disinformation."
+        },
+        {
+          "statement": "Leaking someone’s real private messages to hurt them is an example of malinformation.",
+          "answer": "true",
+          "explanation": "Malinformation is genuine information shared to cause harm, and the text gives exactly this example."
+        },
+        {
+          "statement": "According to the text, disinformation campaigns are always run by governments.",
+          "answer": "false",
+          "explanation": "The text says they are “sometimes” run by state actors, not always."
+        },
+        {
+          "statement": "A satirical article can become misinformation when it is shared without context.",
+          "answer": "true",
+          "explanation": "The last paragraph explains that satire shared without context by people who believe it “functions as misinformation”."
+        },
+        {
+          "statement": "Most misinformation is spread through private messaging apps.",
+          "answer": "not_given",
+          "explanation": "Messaging apps are not mentioned in the text."
+        }
+      ]
+    },
+    {
+      "id": "kf-false-news-speed",
+      "section": "key-facts",
+      "type": "multiple_choice",
+      "title": "Why lies travel faster",
+      "instruction": "Read the summary of a well-known study about false news on Twitter. Then choose the best answer for each question.",
+      "difficulty": "B2",
+      "estimated_minutes": 8,
+      "tags": ["misinformation", "research", "social media"],
+      "input_text": {
+        "title": "Lies Travel Faster than the Truth",
+        "paragraphs": [
+          "In 2018, three researchers at the Massachusetts Institute of Technology, Soroush Vosoughi, Deb Roy and Sinan Aral, published one of the largest studies of how news spreads online in the journal Science. They analysed contested news stories that had circulated on Twitter between 2006 and 2017 and that independent fact-checking organisations had classified as true or false.",
+          "Their main finding was striking: false stories spread farther, faster and more broadly than true ones in every category of information they examined, and the effect was strongest for political news. According to the study, false stories were about 70 per cent more likely to be retweeted than true ones.",
+          "Perhaps surprisingly, automated accounts (“bots”) did not explain the difference. Bots spread true and false news at roughly the same rate, which suggests that humans were mainly responsible. The researchers offered one explanation: false stories tended to be more novel, and they provoked emotions such as surprise and disgust, while true stories were more often associated with sadness, anticipation and trust.",
+          "The study has an important limitation: it describes one platform during a specific period. Still, it challenges the comfortable assumption that misinformation is purely a technical problem that better bot detection could solve."
+        ],
+        "note": "Summary written for this app of Vosoughi, Roy & Aral (2018), “The spread of true and false news online”, Science."
+      },
+      "questions": [
+        {
+          "prompt": "Which stories did the researchers analyse?",
+          "options": [
+            "All tweets published between 2006 and 2017",
+            "Only stories about politics",
+            "Stories that fact-checking organisations had classified as true or false",
+            "Stories written by professional journalists"
+          ],
+          "answer": 2,
+          "explanation": "They analysed contested stories “that independent fact-checking organisations had classified as true or false”."
+        },
+        {
+          "prompt": "What did the study find about bots?",
+          "options": [
+            "Bots spread true and false news at similar rates, so they did not explain the difference.",
+            "Bots spread most of the false stories.",
+            "Bots mainly spread true stories.",
+            "The study did not look at bots."
+          ],
+          "answer": 0,
+          "explanation": "Bots spread both kinds of news “at roughly the same rate”, so humans were mainly responsible for the difference."
+        },
+        {
+          "prompt": "How do the researchers explain the faster spread of false news?",
+          "options": [
+            "False stories are usually shorter.",
+            "Famous accounts post more false stories.",
+            "Platforms promote false stories on purpose.",
+            "False stories are more novel and provoke emotions such as surprise and disgust."
+          ],
+          "answer": 3,
+          "explanation": "Paragraph 3: false stories “tended to be more novel” and provoked surprise and disgust."
+        },
+        {
+          "prompt": "What limitation of the study does the writer mention?",
+          "options": [
+            "The sample was too small.",
+            "It describes only one platform during a specific period.",
+            "The researchers were paid by Twitter.",
+            "It ignored political news."
+          ],
+          "answer": 1,
+          "explanation": "The last paragraph names this limitation directly."
+        },
+        {
+          "prompt": "The phrase “challenges the comfortable assumption” suggests that …",
+          "options": [
+            "the researchers felt uncomfortable with their results.",
+            "bot detection is completely useless.",
+            "people would like to believe the problem has an easy technical solution, but it may not.",
+            "the assumption has been proved true."
+          ],
+          "answer": 2,
+          "explanation": "A “comfortable” assumption is one we like to believe because it is convenient. The study suggests human behaviour is the main factor, so technology alone cannot fix the problem."
+        }
+      ]
+    },
+    {
+      "id": "kf-lateral-reading",
+      "section": "key-facts",
+      "type": "short_answer",
+      "title": "Read like a fact-checker",
+      "instruction": "Read the text about how professional fact-checkers evaluate websites. Answer the questions in your own words (1–4 sentences each), then compare your answers with the model answers.",
+      "difficulty": "C1",
+      "estimated_minutes": 12,
+      "tags": ["media literacy", "fact-checking", "SIFT"],
+      "input_text": {
+        "title": "Read Laterally, Not Vertically",
+        "paragraphs": [
+          "How do experts decide whether a website can be trusted? Researchers from the Stanford History Education Group, led by Sam Wineburg, compared how historians, university students and professional fact-checkers evaluated unfamiliar websites. The fact-checkers were consistently faster and more accurate.",
+          "The difference lay in their strategy. Students and historians tended to read “vertically”: they stayed on the page, studied the design, read the “About us” section and looked for signs of professionalism. Fact-checkers, by contrast, read “laterally”. After only a quick look, they opened new tabs and searched for what other, independent sources said about the website and the organisation behind it.",
+          "Vertical reading is easy to fool. A professional design, an official-sounding name or a long list of references can all be produced cheaply by groups who want to mislead. Lateral reading uses the web against itself: instead of trusting what a source says about itself, you check what others say about it.",
+          "The digital-literacy expert Mike Caulfield summarised a similar approach in four moves known as SIFT: Stop; Investigate the source; Find better coverage; and Trace claims, quotes and media back to their original context. None of these steps takes long, which is the point: they are designed for real people scrolling through their feeds, not for professional researchers with unlimited time."
+        ],
+        "note": "Background text written for this app, based on work by the Stanford History Education Group and Mike Caulfield."
+      },
+      "questions": [
+        {
+          "question": "Explain the difference between vertical and lateral reading in your own words.",
+          "model_answer": "Vertical reading means judging a website from the inside – by its design, content and self-description. Lateral reading means leaving the site quickly and checking what independent sources say about it and about the people behind it.",
+          "key_points": ["vertical = staying on the page and judging it by itself", "lateral = opening new tabs / checking other, independent sources", "lateral reading checks reputation from the outside"]
+        },
+        {
+          "question": "Why is vertical reading “easy to fool”, according to the text?",
+          "model_answer": "Because the features that make a site look trustworthy – a professional design, an official-sounding name, references – are cheap and easy to fake for people who want to mislead.",
+          "key_points": ["trust signals can be faked", "faking them is cheap"]
+        },
+        {
+          "question": "What does the writer mean by saying that lateral reading “uses the web against itself”?",
+          "model_answer": "The internet makes it easy to publish misleading content, but it also makes it easy to find independent information about any source. Lateral reading uses this second fact to fight the first.",
+          "key_points": ["the web spreads misleading content", "the web also offers quick access to independent information", "the same tool is used to check itself"]
+        },
+        {
+          "question": "A friend sends you a screenshot of a shocking quote attributed to a politician. Describe how you would check it, using the four SIFT moves.",
+          "model_answer": "Stop: don’t share it immediately, and notice your emotional reaction. Investigate the source: who made the screenshot and where was it first posted? Find better coverage: search for the quote and see if reliable news outlets or fact-checkers have reported it. Trace it to the original context: look for the original speech, interview or post to see whether the quote is real, complete and not taken out of context.",
+          "key_points": ["Stop – pause before sharing", "Investigate who is behind the screenshot", "Find coverage by reliable outlets / fact-checkers", "Trace the quote to the original speech or post and check the context"]
+        }
+      ]
+    },
+    {
+      "id": "kf-filter-bubbles",
+      "section": "key-facts",
+      "type": "true_false_not_given",
+      "title": "Filter bubbles and echo chambers",
+      "instruction": "Read the text. Decide if each statement is TRUE, FALSE or NOT GIVEN according to the text.",
+      "difficulty": "B2",
+      "estimated_minutes": 9,
+      "tags": ["algorithms", "filter bubble", "echo chamber"],
+      "input_text": {
+        "title": "Trapped in a Bubble?",
+        "paragraphs": [
+          "The internet activist Eli Pariser popularised the term “filter bubble” in his 2011 book of the same name. He argued that personalisation algorithms, which select content according to what we have clicked, liked or watched before, could gradually surround each user with information that confirms their existing views – often without the user noticing.",
+          "A related but different idea is the “echo chamber”. Here, the narrowing is caused mainly by people themselves: we tend to follow, befriend and trust those who think like us, and our own choices create a space in which the same opinions are repeated and amplified.",
+          "Both ideas are intuitive, yet the research is more mixed than popular debate suggests. Several studies have found that many users actually encounter a wider range of sources online than they would through a single newspaper or TV channel. Researchers also point out that people’s own preferences may narrow their media diet at least as much as algorithms do.",
+          "This does not mean the concern is unfounded. Even if most users are not completely sealed off, smaller groups with strong views can end up in highly one-sided environments, and recommendation systems that reward engagement may favour content that is emotional, extreme or divisive. The debate, therefore, is less about whether filter bubbles exist and more about how strong the effect is, for whom, and what platforms should be required to do about it."
+        ],
+        "note": "Background text written for this app."
+      },
+      "statements": [
+        {
+          "statement": "Pariser’s 2011 book brought the term “filter bubble” to a wide audience.",
+          "answer": "true",
+          "explanation": "The text says he “popularised” the term in his 2011 book."
+        },
+        {
+          "statement": "In an echo chamber, the narrowing of information is caused mainly by users’ own choices.",
+          "answer": "true",
+          "explanation": "Paragraph 2: “the narrowing is caused mainly by people themselves”."
+        },
+        {
+          "statement": "All recent studies confirm that algorithms trap most users in filter bubbles.",
+          "answer": "false",
+          "explanation": "The research is described as “mixed”, and several studies found that many users see a wider range of sources online."
+        },
+        {
+          "statement": "Pariser has since changed his mind about filter bubbles.",
+          "answer": "not_given",
+          "explanation": "The text says nothing about Pariser’s later views."
+        },
+        {
+          "statement": "Some users may see a wider range of sources online than through one traditional news outlet.",
+          "answer": "true",
+          "explanation": "Paragraph 3 reports this finding."
+        },
+        {
+          "statement": "The writer thinks concerns about filter bubbles are completely exaggerated.",
+          "answer": "false",
+          "explanation": "The writer says “this does not mean the concern is unfounded”."
+        },
+        {
+          "statement": "Recommendation systems that reward engagement may favour divisive content.",
+          "answer": "true",
+          "explanation": "Paragraph 4 states that such systems “may favour content that is emotional, extreme or divisive”."
+        }
+      ]
+    },
+    {
+      "id": "kf-influencer-marketing",
+      "section": "key-facts",
+      "type": "multiple_choice",
+      "title": "Influencers, ads and trust",
+      "instruction": "Read the text about influencer marketing. Choose the best answer for each question.",
+      "difficulty": "B2",
+      "estimated_minutes": 8,
+      "tags": ["influencers", "advertising", "consumer protection"],
+      "input_text": {
+        "title": "Is It Advice or an Advert?",
+        "paragraphs": [
+          "Influencer marketing has turned ordinary social media users into a powerful advertising channel. Brands pay creators – sometimes with money, sometimes with free products, trips or commission on sales – to present products to their followers. Because influencers often share details of their everyday lives, followers may feel that they know them personally. Researchers call this one-sided sense of intimacy a parasocial relationship, and it is precisely what makes a recommendation from an influencer feel more like advice from a friend than an advert.",
+          "This closeness creates an ethical and legal problem. In the European Union, including Austria, the law requires commercial communication to be recognisable as such. If a creator receives any kind of payment or benefit for a post, it must be clearly labelled as advertising, for example with “Ad” or “Werbung”, rather than hidden at the end of a long list of hashtags. Consumer protection authorities in several countries have taken action against influencers and brands that failed to do so.",
+          "Labelling, however, solves only part of the problem. Research on advertising literacy suggests that younger users in particular may notice a label but still fail to understand the persuasive intent behind a post. Moreover, some of the most effective marketing does not look like advertising at all: an influencer might simply be seen using a product in a “day in my life” video.",
+          "Supporters of influencer marketing argue that it is more honest than traditional advertising because creators only work with brands they genuinely like. Critics reply that when someone’s income depends on brand deals, the line between genuine enthusiasm and paid performance becomes hard to see – even for the influencer."
+        ],
+        "note": "Background text written for this app."
+      },
+      "questions": [
+        {
+          "prompt": "What is a “parasocial relationship”?",
+          "options": [
+            "A contract between a brand and an influencer",
+            "A one-sided feeling of closeness to someone you do not actually know",
+            "A friendship that started online and continued offline",
+            "A group of influencers who promote each other"
+          ],
+          "answer": 1,
+          "explanation": "The text defines it as a “one-sided sense of intimacy” – followers feel they know the influencer, but the influencer does not know them."
+        },
+        {
+          "prompt": "What does the law in the EU require, according to the text?",
+          "options": [
+            "Influencers must not accept free products.",
+            "Advertising is not allowed on social media.",
+            "Paid or sponsored content must be clearly recognisable as advertising.",
+            "All posts must be written in the local language."
+          ],
+          "answer": 2,
+          "explanation": "Commercial communication must be “recognisable as such”, e.g. labelled “Ad” or “Werbung”."
+        },
+        {
+          "prompt": "Why does the writer say that labelling “solves only part of the problem”?",
+          "options": [
+            "Young users may see the label but still not understand that the post is meant to persuade them.",
+            "Most influencers refuse to use labels.",
+            "Labels are too expensive for small creators.",
+            "Labels make posts less popular."
+          ],
+          "answer": 0,
+          "explanation": "Paragraph 3: younger users “may notice a label but still fail to understand the persuasive intent”."
+        },
+        {
+          "prompt": "Which argument do supporters of influencer marketing use?",
+          "options": [
+            "It is cheaper for consumers.",
+            "It reaches older audiences better than TV.",
+            "It is regulated more strictly than other advertising.",
+            "It is more honest because creators choose brands they genuinely like."
+          ],
+          "answer": 3,
+          "explanation": "The last paragraph presents this as the supporters’ view."
+        },
+        {
+          "prompt": "In paragraph 1, the word “precisely” could best be replaced by …",
+          "options": [
+            "exactly",
+            "partly",
+            "rarely",
+            "surprisingly"
+          ],
+          "answer": 0,
+          "explanation": "“It is precisely what makes …” = “it is exactly what makes …”. The word adds emphasis."
+        }
+      ]
+    },
+    {
+      "id": "kf-privacy-gdpr",
+      "section": "key-facts",
+      "type": "true_false_not_given",
+      "title": "Your data, your rights",
+      "instruction": "Read the text about data and privacy in the EU. Decide if each statement is TRUE, FALSE or NOT GIVEN.",
+      "difficulty": "C1",
+      "estimated_minutes": 10,
+      "tags": ["privacy", "data", "GDPR", "Austria"],
+      "input_text": {
+        "title": "If It’s Free, What Are You Paying With?",
+        "paragraphs": [
+          "Many popular online services are free to use, but they are not free to run. Much of the business model of large platforms is based on collecting data about users – what they search for, click on, buy and watch – and using it to sell targeted advertising. The American scholar Shoshana Zuboff has described this model as “surveillance capitalism” in her 2019 book The Age of Surveillance Capitalism.",
+          "In the European Union, the General Data Protection Regulation (GDPR) has applied since May 2018. It gives individuals a number of rights, including the right to access the data a company holds about them, the right to have incorrect data corrected and, in certain circumstances, the right to have data deleted – often called the “right to be forgotten”. Companies that break the rules can face fines of up to 20 million euros or four per cent of their worldwide annual turnover, whichever is higher.",
+          "Austria plays a notable role in this story. The Austrian lawyer and privacy activist Max Schrems brought complaints against Facebook that led the Court of Justice of the European Union to strike down two agreements on transferring personal data from the EU to the United States: “Safe Harbour” in 2015 and its successor, the “Privacy Shield”, in 2020.",
+          "Critics argue that the GDPR has also produced endless cookie banners that most people click away without reading, so that formal consent does not always mean informed consent. Privacy, it seems, is protected not only by laws but also by habits."
+        ],
+        "note": "Background text written for this app. Facts: GDPR (EU Regulation 2016/679); CJEU rulings C-362/14 (2015) and C-311/18 (2020)."
+      },
+      "statements": [
+        {
+          "statement": "According to the text, the GDPR has applied in the EU since 2018.",
+          "answer": "true",
+          "explanation": "Paragraph 2: “has applied since May 2018”."
+        },
+        {
+          "statement": "Under the GDPR, people can always demand that a company deletes all data about them.",
+          "answer": "false",
+          "explanation": "The right to have data deleted exists only “in certain circumstances”."
+        },
+        {
+          "statement": "The maximum GDPR fine is always 20 million euros.",
+          "answer": "false",
+          "explanation": "It is 20 million euros or four per cent of worldwide turnover, “whichever is higher”, so it can be much more."
+        },
+        {
+          "statement": "Max Schrems is an Austrian privacy activist.",
+          "answer": "true",
+          "explanation": "Paragraph 3 describes him as an Austrian lawyer and privacy activist."
+        },
+        {
+          "statement": "Max Schrems received a large sum in compensation from Facebook.",
+          "answer": "not_given",
+          "explanation": "The text mentions court rulings, not compensation."
+        },
+        {
+          "statement": "The Privacy Shield replaced the Safe Harbour agreement.",
+          "answer": "true",
+          "explanation": "The Privacy Shield is called Safe Harbour’s “successor”."
+        },
+        {
+          "statement": "The writer suggests that clicking “accept” on a cookie banner always means a user understands what they are agreeing to.",
+          "answer": "false",
+          "explanation": "The writer says the opposite: “formal consent does not always mean informed consent”."
+        },
+        {
+          "statement": "Zuboff’s book became an international bestseller.",
+          "answer": "not_given",
+          "explanation": "The text names the book but says nothing about its sales."
+        }
+      ]
+    },
+    {
+      "id": "kf-cyberbullying-headlines",
+      "section": "key-facts",
+      "type": "matching",
+      "title": "Cyberbullying: match the headlines",
+      "instruction": "Match each paragraph (A–E) with the best headline. There are two extra headlines that you do not need.",
+      "difficulty": "B2",
+      "estimated_minutes": 8,
+      "tags": ["cyberbullying", "Austria", "headline matching"],
+      "left_label": "Paragraph",
+      "right_label": "Headline",
+      "pairs": [
+        {
+          "left": "A – Bullying is nothing new, but digital technology has changed its character. Traditional bullying usually stopped at the school gate; cyberbullying can follow a victim home, into their bedroom and onto the phone they check before falling asleep.",
+          "right": "No escape after school",
+          "explanation": "The key idea is that there is no safe place or time any more."
+        },
+        {
+          "left": "B – Anything posted online can be screenshotted, saved and shared again, sometimes years later. A humiliating photo does not disappear simply because the original post has been deleted.",
+          "right": "Nothing is ever really deleted",
+          "explanation": "The paragraph is about the permanence of online content."
+        },
+        {
+          "left": "C – An insult made in a classroom is heard by a few people; a post in a large group chat may be seen by hundreds. Whether those who see it ignore it, laugh, share it or report it can make a decisive difference.",
+          "right": "The power of bystanders",
+          "explanation": "The focus is on the role of the people who watch."
+        },
+        {
+          "left": "D – Some perpetrators feel protected by anonymity or by the physical distance between them and their victim. Because they do not see the other person’s reaction, they may not grasp – or may choose to ignore – how much harm their words cause.",
+          "right": "Hiding behind the screen",
+          "explanation": "Anonymity and distance make it easier to hurt someone."
+        },
+        {
+          "left": "E – In Austria, persistent harassment via telecommunications or computer systems has been a specific criminal offence since 2016. Experts stress, however, that what helps victims most is being taken seriously and having adults and peers who support them.",
+          "right": "What the law says – and what helps more",
+          "explanation": "The paragraph combines the legal situation with practical support."
+        }
+      ],
+      "distractors": [
+        "Why bullies are usually victims themselves",
+        "A problem that only affects teenagers"
+      ],
+      "explanation": "Headline matching tests whether you can identify the MAIN idea of a paragraph, not just a single word. The two extra headlines are not supported by any paragraph. Fact: § 107c of the Austrian Criminal Code (StGB) has covered persistent harassment via telecommunications or computer systems since 1 January 2016."
+    },
+    {
+      "id": "kf-face-to-face-myth",
+      "section": "key-facts",
+      "type": "true_false_not_given",
+      "title": "The 7-38-55 myth",
+      "instruction": "Read the text about face-to-face and digital communication. Decide if each statement is TRUE, FALSE or NOT GIVEN.",
+      "difficulty": "C1",
+      "estimated_minutes": 10,
+      "tags": ["face-to-face", "digital communication", "body language"],
+      "input_text": {
+        "title": "Is 93 Per Cent of Communication Really Nonverbal?",
+        "paragraphs": [
+          "A claim that appears in countless presentations and self-help books says that only seven per cent of communication is verbal, while 38 per cent comes from tone of voice and 55 per cent from body language. It is usually attributed to the psychologist Albert Mehrabian, who carried out experiments on communication in the 1960s.",
+          "The claim is a misunderstanding. Mehrabian’s studies looked at a very specific situation: how people judge a speaker’s feelings or attitude when single words and the tone of voice or facial expression send contradictory signals. Mehrabian himself has pointed out that his findings do not apply to communication in general. If they did, we would understand most of a foreign-language film without subtitles.",
+          "Even so, the myth points towards something real. In face-to-face conversation, we constantly read facial expressions, gestures, pauses and tone, and these signals help us interpret what people mean, especially when they are joking, being ironic or expressing emotions. Much of this information is lost in text messages, which is one reason why written messages are easily misunderstood and why emojis have become so popular: they put some of the missing emotional cues back.",
+          "The psychologist Sherry Turkle, who has studied the effects of technology on relationships for decades, argues in her book Reclaiming Conversation (2015) that constant texting may weaken skills such as empathy, which develop through real-time, face-to-face conversation. Her critics consider this too pessimistic, noting that many people use digital tools to maintain close relationships that distance would otherwise make impossible."
+        ],
+        "note": "Background text written for this app."
+      },
+      "statements": [
+        {
+          "statement": "Mehrabian’s research showed that body language matters more than words in all communication.",
+          "answer": "false",
+          "explanation": "The text calls this a misunderstanding; his findings do not apply to communication in general."
+        },
+        {
+          "statement": "Mehrabian studied how people interpret feelings when words and nonverbal signals contradict each other.",
+          "answer": "true",
+          "explanation": "Paragraph 2 describes exactly this situation."
+        },
+        {
+          "statement": "Mehrabian has said that his results cannot be applied to all communication.",
+          "answer": "true",
+          "explanation": "“Mehrabian himself has pointed out that his findings do not apply to communication in general.”"
+        },
+        {
+          "statement": "The writer believes that nonverbal signals are unimportant.",
+          "answer": "false",
+          "explanation": "Paragraph 3 says the myth “points towards something real” and explains why nonverbal signals matter."
+        },
+        {
+          "statement": "Emojis can replace some of the emotional cues that are missing in text messages.",
+          "answer": "true",
+          "explanation": "Emojis “put some of the missing emotional cues back”."
+        },
+        {
+          "statement": "Turkle’s book is based on interviews with more than a thousand people.",
+          "answer": "not_given",
+          "explanation": "The text does not describe her research methods."
+        },
+        {
+          "statement": "All experts agree with Turkle’s view on texting and empathy.",
+          "answer": "false",
+          "explanation": "The text mentions critics who find her view too pessimistic."
+        },
+        {
+          "statement": "Mehrabian’s participants came from many different countries.",
+          "answer": "not_given",
+          "explanation": "Nothing is said about the participants."
+        }
+      ]
+    },
+    {
+      "id": "kf-press-freedom",
+      "section": "key-facts",
+      "type": "multiple_choice",
+      "title": "Watchdogs under pressure",
+      "instruction": "Read the text about journalism and press freedom. Choose the best answer for each question.",
+      "difficulty": "B2",
+      "estimated_minutes": 9,
+      "tags": ["journalism", "press freedom", "democracy"],
+      "input_text": {
+        "title": "Who Watches the Watchdogs?",
+        "paragraphs": [
+          "Journalism is often described as the “fourth estate” or a watchdog: its role is to hold the powerful to account by investigating and publishing information they would prefer to keep hidden. A famous example is the Watergate scandal of the early 1970s, when reporting by Bob Woodward and Carl Bernstein at The Washington Post helped to uncover illegal activities connected to President Richard Nixon’s administration, which eventually led to his resignation in 1974.",
+          "Since 2002, the organisation Reporters Without Borders (RSF) has published an annual World Press Freedom Index, which compares the situation for journalists in around 180 countries and territories. It considers factors such as political pressure, legal frameworks, economic conditions and the safety of journalists. Northern European countries, especially Norway, have regularly been at the top of the ranking in recent years.",
+          "Threats to press freedom do not only come from authoritarian governments. Journalists also face online harassment, expensive lawsuits designed to silence criticism – known as SLAPPs (strategic lawsuits against public participation) – and economic pressure. As advertising revenue has moved from newspapers to large online platforms, many local newspapers have had to cut staff or close, leaving some communities with little independent reporting about local politics.",
+          "Many media organisations have responded by introducing paywalls and subscriptions, while public service broadcasters such as the BBC in the United Kingdom or ORF in Austria are financed largely through a licence fee or household levy. Each model raises its own questions: paywalls can exclude people who cannot afford them, and public funding requires strong safeguards to keep broadcasters independent of the government."
+        ],
+        "note": "Background text written for this app."
+      },
+      "questions": [
+        {
+          "prompt": "What does the “watchdog” role of journalism mean?",
+          "options": [
+            "Reporting mainly on crime and the police",
+            "Holding powerful people and institutions to account",
+            "Protecting the government from criticism",
+            "Entertaining the public with celebrity news"
+          ],
+          "answer": 1,
+          "explanation": "The text defines it as holding “the powerful to account by investigating and publishing information they would prefer to keep hidden”."
+        },
+        {
+          "prompt": "What was a result of the Watergate reporting?",
+          "options": [
+            "Woodward and Bernstein were arrested.",
+            "The Washington Post had to close.",
+            "It led to the founding of Reporters Without Borders.",
+            "It contributed to President Nixon’s resignation."
+          ],
+          "answer": 3,
+          "explanation": "The reporting helped uncover illegal activities, which “eventually led to his resignation in 1974”."
+        },
+        {
+          "prompt": "What is a SLAPP?",
+          "options": [
+            "A lawsuit designed to silence critics through cost and pressure",
+            "A type of online harassment campaign",
+            "A law that protects journalists’ sources",
+            "A ranking of press freedom"
+          ],
+          "answer": 0,
+          "explanation": "SLAPPs are “expensive lawsuits designed to silence criticism”."
+        },
+        {
+          "prompt": "Why have many local newspapers had to cut staff or close?",
+          "options": [
+            "People have stopped being interested in local politics.",
+            "Governments have banned them.",
+            "Advertising revenue has moved to large online platforms.",
+            "Public broadcasters have taken their readers."
+          ],
+          "answer": 2,
+          "explanation": "Paragraph 3 links the closures to advertising revenue moving to online platforms."
+        },
+        {
+          "prompt": "Which problem with public funding does the writer mention?",
+          "options": [
+            "It is more expensive than paywalls.",
+            "Broadcasters need safeguards to stay independent of the government.",
+            "It excludes poorer people.",
+            "It is only possible in small countries."
+          ],
+          "answer": 1,
+          "explanation": "“Public funding requires strong safeguards to keep broadcasters independent of the government.” (Exclusion of poorer people is the problem with paywalls.)"
+        }
+      ]
+    },
+    {
+      "id": "kf-deepfakes",
+      "section": "key-facts",
+      "type": "multiple_choice",
+      "title": "Deepfakes and the liar’s dividend",
+      "instruction": "Read the text about AI-generated content. Choose the best answer for each question. Some questions ask you to read between the lines.",
+      "difficulty": "C1",
+      "estimated_minutes": 10,
+      "tags": ["AI", "deepfakes", "misinformation", "regulation"],
+      "input_text": {
+        "title": "Seeing Is No Longer Believing",
+        "paragraphs": [
+          "Generative AI tools can now produce realistic text, images, voices and videos within seconds. Among the most discussed products of this technology are deepfakes: synthetic or manipulated media that make it appear as if a real person said or did something they never said or did. Deepfakes have been used for satire and film production, but also for fraud and political manipulation, and a large share of them have been non-consensual sexual images, which overwhelmingly target women.",
+          "The obvious danger is that people believe fake content. A less obvious danger has been called the “liar’s dividend”, a term introduced by the legal scholars Bobby Chesney and Danielle Citron. Once the public knows that convincing fakes exist, people caught on genuine recordings can simply claim that the evidence was fabricated. In other words, deepfakes do not only make lies more believable; they can also make the truth easier to deny.",
+          "Responses work on several levels. Technology companies and media organisations have developed standards for “content credentials”, such as those of the Coalition for Content Provenance and Authenticity (C2PA), which attach information about how and by whom a file was created or edited. Legislators are also acting: the European Union’s AI Act includes transparency rules under which AI-generated or manipulated content such as deepfakes must be disclosed as such.",
+          "No technical label, however, can replace critical thinking. Detection tools make mistakes, labels can be removed, and many manipulated images are not sophisticated deepfakes at all but real photos placed in a misleading context – so-called “cheapfakes”. The old questions of media literacy therefore remain essential: Who published this? What is the original source? And who benefits if I believe it?"
+        ],
+        "note": "Background text written for this app."
+      },
+      "questions": [
+        {
+          "prompt": "What is the “liar’s dividend”?",
+          "options": [
+            "The money people earn by producing deepfakes",
+            "The advantage liars gain because genuine evidence can now be dismissed as fake",
+            "A reward for people who report deepfakes",
+            "The legal punishment for spreading false content"
+          ],
+          "answer": 1,
+          "explanation": "Because fakes exist, people caught on real recordings “can simply claim that the evidence was fabricated”."
+        },
+        {
+          "prompt": "What do “content credentials” do?",
+          "options": [
+            "They delete manipulated images automatically.",
+            "They prove that a person is not a bot.",
+            "They attach information about how and by whom a file was created or edited.",
+            "They allow users to report fake news to the police."
+          ],
+          "answer": 2,
+          "explanation": "Paragraph 3 explains that they attach information about a file’s origin and editing history."
+        },
+        {
+          "prompt": "What is a “cheapfake”?",
+          "options": [
+            "A real photo or video presented in a misleading context, without advanced AI",
+            "A low-quality deepfake that is easy to detect",
+            "A deepfake sold for a small amount of money",
+            "A fake product advertised online"
+          ],
+          "answer": 0,
+          "explanation": "The text describes cheapfakes as “real photos placed in a misleading context” rather than sophisticated deepfakes."
+        },
+        {
+          "prompt": "What is the writer’s main conclusion?",
+          "options": [
+            "Deepfakes will soon be impossible to create because of the AI Act.",
+            "Detection tools are now reliable enough to solve the problem.",
+            "Deepfakes are mainly a harmless form of satire.",
+            "Technical and legal measures help, but they cannot replace critical thinking."
+          ],
+          "answer": 3,
+          "explanation": "The last paragraph begins: “No technical label, however, can replace critical thinking.”"
+        },
+        {
+          "prompt": "Why does the writer end with three questions?",
+          "options": [
+            "To show that nobody knows the answers",
+            "To give readers simple, practical questions they can ask about any content",
+            "To criticise media literacy as old-fashioned",
+            "To introduce a new topic"
+          ],
+          "answer": 1,
+          "explanation": "The questions sum up “the old questions of media literacy” as a practical toolkit for the reader."
+        }
+      ]
+    },
+    {
+      "id": "kf-anxious-generation",
+      "section": "key-facts",
+      "type": "short_answer",
+      "title": "Phones and mental health: weighing the evidence",
+      "instruction": "Read the text about a major current debate. Answer the questions in full sentences. Focus on reasoning, not on repeating the text. Then compare with the model answers.",
+      "difficulty": "Challenge",
+      "estimated_minutes": 15,
+      "tags": ["screen time", "wellbeing", "mental health", "research", "phone ban"],
+      "input_text": {
+        "title": "The Anxious Generation – and Its Critics",
+        "paragraphs": [
+          "Few media debates are as emotional as the one about young people, smartphones and mental health. In his 2024 bestseller The Anxious Generation, the social psychologist Jonathan Haidt argues that the shift from a “play-based childhood” to a “phone-based childhood” in the early 2010s has contributed significantly to rising rates of anxiety and depression among adolescents, particularly girls, in several Western countries. He proposes four norms: no smartphones before high school, no social media before 16, phone-free schools, and far more independence and free play in the real world.",
+          "Other researchers, such as the psychologist Candice Odgers, have criticised the book. They argue that much of the evidence is correlational: it shows that heavy social media use and poor mental health often occur together, but not that one causes the other. Teenagers who already feel unhappy might use their phones more, or a third factor might influence both. Critics also warn that focusing on phones may distract from other causes of distress, such as academic pressure, economic insecurity or a lack of mental-health services.",
+          "Meanwhile, policymakers have not waited for an academic consensus. France banned phone use by pupils in primary and lower secondary schools in 2018, several other countries have introduced similar rules, and Australia has passed a law setting a minimum age of 16 for accounts on many social media platforms.",
+          "For a balanced view, it helps to separate questions that are often mixed up: Is screen time harmful in itself, or does it depend on what is done on screens and which activities it replaces? Does the same evidence apply to all age groups? And who should be responsible – parents, schools, platforms or governments?"
+        ],
+        "note": "Background text written for this app."
+      },
+      "questions": [
+        {
+          "question": "Summarise Haidt’s main claim in one or two sentences.",
+          "model_answer": "Haidt claims that the move to a smartphone-centred childhood in the early 2010s has been a major cause of the rise in anxiety and depression among teenagers, especially girls.",
+          "key_points": ["phone-based instead of play-based childhood", "early 2010s", "rise in anxiety and depression, especially among girls"]
+        },
+        {
+          "question": "Explain the difference between correlation and causation, using the example from the text.",
+          "model_answer": "A correlation means two things often occur together, for example heavy social media use and poor mental health. Causation means one actually causes the other. The correlation could exist because unhappy teenagers use their phones more (reverse causation) or because a third factor affects both.",
+          "key_points": ["correlation = occurring together", "causation = one causes the other", "reverse causation: unhappy teens use phones more", "a third factor may influence both"]
+        },
+        {
+          "question": "Why might governments introduce phone bans even though researchers disagree? Give two reasons.",
+          "model_answer": "First, they may follow the precautionary principle: if there is a possible risk to children, it seems safer to act before the evidence is final. Second, phone bans in schools are cheap, visible and popular with many parents and teachers, and they may reduce distraction in class regardless of the mental-health debate.",
+          "key_points": ["precautionary principle / better safe than sorry", "public or parental pressure / political visibility", "other benefits such as less distraction in class"]
+        },
+        {
+          "question": "Choose one question from the final paragraph and write a short, balanced answer (4–6 sentences).",
+          "model_answer": "Example – “Does it depend on what is done on screens?” Most likely, yes. Video-calling a grandparent, learning a language or editing a film are very different from scrolling endlessly through short videos at midnight. What a screen replaces also matters: if it replaces sleep, exercise or meeting friends, the effect is probably negative; if it replaces boredom on a bus, it may be harmless. On the other hand, it would be naive to ignore that many apps are designed to keep us scrolling, so ‘good’ use takes more self-control than it seems. A fair conclusion is that the total number of hours tells us less than the type of use and its context.",
+          "key_points": ["clear position in the first sentence", "at least one concrete example", "a counter-argument or limitation", "a balanced conclusion"]
+        }
+      ]
+    },
+    {
+      "id": "kf-attention-economy",
+      "section": "key-facts",
+      "type": "multiple_choice",
+      "title": "The attention economy",
+      "instruction": "Read the text about how apps compete for our attention. Choose the best answer for each question.",
+      "difficulty": "C1",
+      "estimated_minutes": 10,
+      "tags": ["attention economy", "design", "DSA", "regulation"],
+      "input_text": {
+        "title": "Paying with Our Attention",
+        "paragraphs": [
+          "In 1971 the economist and psychologist Herbert Simon observed that a wealth of information creates a poverty of attention. Half a century later, this insight describes the business model of much of the internet. When a service is free, the scarce resource that companies compete for is our time and attention, which they can then sell to advertisers. This is why the system is often called the attention economy.",
+          "Many features of popular apps are designed to keep users engaged for as long as possible. Infinite scroll removes natural stopping points; autoplay starts the next video before we have decided to watch it; notifications pull us back to the screen; and variable rewards – we never know whether the next refresh will bring something exciting – work in a similar way to slot machines. The designer Aza Raskin, who is often credited with inventing infinite scroll, has since said that he regrets the effect it has had.",
+          "Former technology insiders such as Tristan Harris, a co-founder of the Center for Humane Technology, argue that this is not a question of individual willpower: billions of people are facing teams of engineers whose job is to capture their attention. Critics of this view warn against portraying users as helpless and point out that many people use digital media in deliberate, creative and social ways.",
+          "The debate has started to influence regulation. The EU’s Digital Services Act, for example, requires very large online platforms to assess and reduce systemic risks, including risks to users’ physical and mental wellbeing, and bans so-called dark patterns – interface designs that trick or pressure users into decisions they would not otherwise make."
+        ],
+        "note": "Background text written for this app."
+      },
+      "questions": [
+        {
+          "prompt": "In the attention economy, what is the scarce resource?",
+          "options": [
+            "Information",
+            "Advertising space",
+            "Users’ time and attention",
+            "Internet bandwidth"
+          ],
+          "answer": 2,
+          "explanation": "Information is plentiful; what is scarce – and what companies compete for – is “our time and attention”."
+        },
+        {
+          "prompt": "Which design feature is compared to slot machines?",
+          "options": [
+            "Variable rewards",
+            "Autoplay",
+            "Dark patterns",
+            "Content credentials"
+          ],
+          "answer": 0,
+          "explanation": "Variable rewards – not knowing what the next refresh brings – “work in a similar way to slot machines”."
+        },
+        {
+          "prompt": "What is Tristan Harris’s main argument?",
+          "options": [
+            "Users should simply use more willpower.",
+            "Most people use digital media creatively.",
+            "Social media should be banned for everyone under 18.",
+            "Individuals are up against professional teams designed to capture attention, so willpower is not enough."
+          ],
+          "answer": 3,
+          "explanation": "He argues “this is not a question of individual willpower” because users face teams of engineers."
+        },
+        {
+          "prompt": "What are “dark patterns”?",
+          "options": [
+            "Night-mode settings in apps",
+            "Interface designs that trick or pressure users into decisions",
+            "Illegal content on social media",
+            "Hidden advertising by influencers"
+          ],
+          "answer": 1,
+          "explanation": "The final paragraph defines them in exactly these words."
+        },
+        {
+          "prompt": "How does the writer present the views in paragraph 3?",
+          "options": [
+            "The writer presents both views without clearly taking a side.",
+            "The writer strongly supports Tristan Harris.",
+            "The writer dismisses the critics as naive.",
+            "The writer argues that both views are wrong."
+          ],
+          "answer": 0,
+          "explanation": "The paragraph reports Harris’s view and then the critics’ view, without evaluating either one. Recognising a neutral tone is a useful C1 reading skill."
+        }
+      ]
+    },
+    {
+      "id": "kf-cambridge-analytica",
+      "section": "key-facts",
+      "type": "short_answer",
+      "title": "Case study: Cambridge Analytica",
+      "instruction": "Read the case study. Answer the questions in your own words. Questions 3 and 4 have no single correct answer – compare your reasoning with the model answer.",
+      "difficulty": "C1",
+      "estimated_minutes": 14,
+      "tags": ["privacy", "data", "elections", "case study"],
+      "input_text": {
+        "title": "Case Study: The Cambridge Analytica Scandal",
+        "paragraphs": [
+          "In March 2018, The Guardian, The Observer and The New York Times reported that the political consulting firm Cambridge Analytica had obtained data from millions of Facebook users without their knowledge. The data had been collected through a personality-quiz app created by a researcher. Only a few hundred thousand people had used the app, but because of Facebook’s settings at the time, the app could also access information about their friends. Facebook later estimated that the data of up to 87 million people may have been improperly shared.",
+          "Cambridge Analytica claimed that it could use such data to create psychological profiles and target voters with tailored political messages. How effective this “psychographic” targeting really was remains disputed, and many experts believe the company’s claims were exaggerated.",
+          "The consequences were nonetheless significant. Facebook’s founder Mark Zuckerberg was called to testify before the US Congress, Cambridge Analytica shut down in 2018, and in 2019 the US Federal Trade Commission imposed a five-billion-dollar penalty on Facebook over privacy violations. The scandal became a turning point in public awareness of how personal data can be used for political purposes."
+        ],
+        "note": "Case study written for this app."
+      },
+      "questions": [
+        {
+          "question": "Why could the app collect data about far more people than those who actually used it?",
+          "model_answer": "Because Facebook’s settings at the time allowed apps to access information not only about the users themselves but also about their friends, who had never agreed to it.",
+          "key_points": ["platform settings at the time", "access to friends’ data", "friends had not consented"]
+        },
+        {
+          "question": "Why is it difficult to say how much Cambridge Analytica influenced voters?",
+          "model_answer": "Because the effectiveness of psychographic targeting is disputed, and the company had a commercial interest in exaggerating what it could do. Voting decisions also have many causes, so it is hard to isolate the effect of targeted ads.",
+          "key_points": ["effectiveness is disputed", "the company may have exaggerated", "many factors influence votes"]
+        },
+        {
+          "question": "Who bears the main responsibility: the researcher, Cambridge Analytica, Facebook, or the users? Justify your view.",
+          "model_answer": "A strong answer takes a clear position but recognises shared responsibility. For example: Facebook bears the main responsibility because its platform design allowed apps to collect friends’ data, and protecting users’ data was its job. Cambridge Analytica and the researcher acted unethically by using the data without consent. Users can hardly be blamed, as most of them never used the app.",
+          "key_points": ["clear position", "reasons linked to facts in the text", "acknowledges the role of the other parties"]
+        },
+        {
+          "question": "What practical lessons does the case teach you as a social media user?",
+          "model_answer": "Be careful with quizzes and apps that request access to your account; check privacy settings regularly; remember that your sharing decisions can also affect friends; and be aware that political ads may be targeted at you based on your data.",
+          "key_points": ["caution with third-party apps", "review privacy settings", "your data choices affect others", "awareness of targeted political messages"]
+        }
+      ]
+    }
+  ]
+}

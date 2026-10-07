@@ -1,0 +1,286 @@
+{
+  "id": "language-workshop",
+  "order": 6,
+  "title": "Language Workshop",
+  "short_title": "Language",
+  "description": "Fix typical German-speaker mistakes, upgrade your register, paraphrase, link ideas and master C1 sentence transformations.",
+  "icon": "PenTool",
+  "accent": "sky",
+  "intro": "Accuracy and range are a big part of any speaking assessment. This workshop targets the mistakes German speakers make most often and the structures that make you sound like a C1 speaker – all with topic vocabulary on communication and media.",
+  "exercises": [
+    {
+      "id": "lw-errors-grammar",
+      "section": "language-workshop",
+      "type": "error_correction",
+      "title": "Typical grammar traps",
+      "instruction": "Each sentence contains ONE mistake that German speakers often make. Tap the word(s) you think are wrong, then check the correction and explanation.",
+      "difficulty": "B2",
+      "estimated_minutes": 8,
+      "tags": ["error correction", "grammar", "German speakers"],
+      "items": [
+        {"sentence": "I live in Graz since 2020, so I know the local news well.", "error": "live", "correction": "I have lived in Graz since 2020, so I know the local news well.", "explanation": "With “since” + a point in time, English uses the present perfect (have lived), not the present simple. German “Ich wohne seit …” uses the present tense, which causes this mistake."},
+        {"sentence": "Can you give me some informations about the workshop?", "error": "informations", "correction": "Can you give me some information about the workshop?", "explanation": "“Information” is uncountable in English: no plural -s. Say “some information” or “a piece of information”. The same applies to advice, news, evidence and feedback."},
+        {"sentence": "I want that you check this source before you share it.", "error": "want that you check", "correction": "I want you to check this source before you share it.", "explanation": "English uses want + object + to-infinitive. “I want that …” is a direct translation of German “Ich will, dass …”."},
+        {"sentence": "The news are really depressing today.", "error": "are", "correction": "The news is really depressing today.", "explanation": "“News” looks plural but is an uncountable noun and takes a singular verb."},
+        {"sentence": "He said me that the video was fake.", "error": "said me", "correction": "He told me that the video was fake.", "explanation": "“Say” does not take a personal object directly. Use “tell someone” or “say to someone”."},
+        {"sentence": "I am agree with your point about privacy.", "error": "am agree", "correction": "I agree with your point about privacy.", "explanation": "“Agree” is a verb in English, not an adjective. No “am”."},
+        {"sentence": "We discussed about the advantages of AI in class.", "error": "discussed about", "correction": "We discussed the advantages of AI in class.", "explanation": "“Discuss” takes a direct object – no “about”. (But: “We talked about …” / “a discussion about …”.)"},
+        {"sentence": "If I would have known about the risks, I wouldn’t have posted it.", "error": "would have known", "correction": "If I had known about the risks, I wouldn’t have posted it.", "explanation": "In the if-clause of the third conditional, use the past perfect (had known), not “would have”."}
+      ]
+    },
+    {
+      "id": "lw-false-friends",
+      "section": "language-workshop",
+      "type": "error_correction",
+      "title": "False friends and word choice",
+      "instruction": "Each sentence contains one word that is a typical German–English “false friend” or wrong word choice. Tap it, then compare your idea with the correction.",
+      "difficulty": "C1",
+      "estimated_minutes": 8,
+      "tags": ["false friends", "vocabulary", "German speakers"],
+      "items": [
+        {"sentence": "She made a photo of the protest and posted it immediately.", "error": "made", "correction": "She took a photo of the protest and posted it immediately.", "explanation": "In English you “take” a photo (German: ein Foto machen)."},
+        {"sentence": "I’m going to become a new phone for my birthday.", "error": "become", "correction": "I’m going to get a new phone for my birthday.", "explanation": "“Become” means “werden”. German “bekommen” = get / receive."},
+        {"sentence": "I read the news every morning to stay actual.", "error": "actual", "correction": "I read the news every morning to stay up to date.", "explanation": "“Actual” means “tatsächlich”. German “aktuell” = current / up to date."},
+        {"sentence": "My new classmate is really sympathetic – everyone likes him.", "error": "sympathetic", "correction": "My new classmate is really likeable – everyone likes him.", "explanation": "“Sympathetic” means “mitfühlend / verständnisvoll”. German “sympathisch” = likeable / nice / pleasant."},
+        {"sentence": "We could eventually meet tomorrow if you have time.", "error": "eventually", "correction": "We could possibly meet tomorrow if you have time.", "explanation": "“Eventually” means “schließlich / letztendlich”. German “eventuell” = possibly / perhaps."},
+        {"sentence": "I’ll control my emails after the meeting.", "error": "control", "correction": "I’ll check my emails after the meeting.", "explanation": "“Control” means “steuern / beherrschen”. German “kontrollieren” in this sense = check."},
+        {"sentence": "This website looks very serious, so you can probably trust it.", "error": "serious", "correction": "This website looks very reputable, so you can probably trust it.", "explanation": "German “seriös” = reputable / trustworthy / respectable. “Serious” means “ernst”."},
+        {"sentence": "Most teenagers would rather lose their wallet than their handy.", "error": "handy", "correction": "Most teenagers would rather lose their wallet than their mobile phone.", "explanation": "“Handy” is a German pseudo-anglicism. In English: mobile phone (BrE), cell phone (AmE) or smartphone. “Handy” in English means “useful”."},
+        {"sentence": "Whoever invented this fake story clearly has a lot of fantasy.", "error": "fantasy", "correction": "Whoever invented this fake story clearly has a lot of imagination.", "explanation": "German “Fantasie (haben)” = imagination. “Fantasy” in English usually means a dream or a genre of fiction."}
+      ]
+    },
+    {
+      "id": "lw-errors-prepositions",
+      "section": "language-workshop",
+      "type": "error_correction",
+      "title": "Preposition problems",
+      "instruction": "Find the wrong preposition (or phrase) in each sentence. Tap it, then check the correction.",
+      "difficulty": "B2",
+      "estimated_minutes": 7,
+      "tags": ["prepositions", "error correction"],
+      "items": [
+        {"sentence": "I found the article in the internet.", "error": "in the internet", "correction": "I found the article on the internet.", "explanation": "English says “on the internet”, “on social media”, “on a website” (German: im Internet)."},
+        {"sentence": "On the picture, we can see a family at dinner.", "error": "On the picture", "correction": "In the picture, we can see a family at dinner.", "explanation": "Things are “in a picture / photo” (German: auf dem Bild). This one is very common in exam picture descriptions!"},
+        {"sentence": "According to me, social media has more advantages than disadvantages.", "error": "According to me", "correction": "In my opinion, social media has more advantages than disadvantages.", "explanation": "“According to” refers to other people or sources: “according to the study”. For your own view, say “in my opinion / in my view”."},
+        {"sentence": "Many young people are afraid from missing out.", "error": "from", "correction": "Many young people are afraid of missing out.", "explanation": "afraid of (German: Angst vor)."},
+        {"sentence": "Platforms should be responsible of the content they recommend.", "error": "of", "correction": "Platforms should be responsible for the content they recommend.", "explanation": "responsible for (German: verantwortlich für)."},
+        {"sentence": "The report focuses to the effects of screen time.", "error": "to", "correction": "The report focuses on the effects of screen time.", "explanation": "focus on (German: sich konzentrieren auf)."},
+        {"sentence": "A good monologue consists from three main parts.", "error": "from", "correction": "A good monologue consists of three main parts.", "explanation": "consist of (German: bestehen aus)."},
+        {"sentence": "Students should participate on discussions about school rules.", "error": "on", "correction": "Students should participate in discussions about school rules.", "explanation": "participate in / take part in (German: teilnehmen an)."}
+      ]
+    },
+    {
+      "id": "lw-register-upgrade",
+      "section": "language-workshop",
+      "type": "rewrite",
+      "title": "Register upgrade: from chat to exam",
+      "instruction": "Rewrite each informal sentence in a formal, exam-appropriate style. Then compare your version with the model and check the key points. Many good answers are possible.",
+      "difficulty": "B2",
+      "estimated_minutes": 10,
+      "tags": ["register", "formal language", "rewriting"],
+      "items": [
+        {"original": "Loads of kids are on their phones all the time.", "model_answer": "A large number of young people spend a considerable amount of time on their smartphones.", "key_points": ["loads of → a large number of / many", "kids → young people / children", "all the time → constantly / a considerable amount of time"]},
+        {"original": "Fake news is a really big problem and stuff.", "model_answer": "Misinformation is a serious problem with far-reaching consequences.", "key_points": ["fake news → misinformation / false information", "really big → serious / significant", "remove vague fillers like “and stuff”"]},
+        {"original": "Social media’s kind of bad for you if you use it too much.", "model_answer": "Excessive use of social media may have negative effects on users’ wellbeing.", "key_points": ["kind of → may / can (hedging)", "use it too much → excessive use (nominalisation)", "bad for you → negative effects on wellbeing"]},
+        {"original": "Companies grab our data and make tons of money.", "model_answer": "Companies collect users’ personal data and profit considerably from it.", "key_points": ["grab → collect / gather", "tons of → considerable / substantial", "make money → profit / generate revenue"]},
+        {"original": "I think the government should do something about it.", "model_answer": "In my view, the government ought to take decisive action to address this issue.", "key_points": ["I think → In my view / I would argue that", "do something → take action / address the issue", "should → ought to (optional)"]},
+        {"original": "Lots of people don’t get how algorithms work.", "model_answer": "Many people lack a clear understanding of how algorithms function.", "key_points": ["lots of → many", "don’t get → lack an understanding of / do not understand", "work → function / operate"]}
+      ]
+    },
+    {
+      "id": "lw-paraphrase",
+      "section": "language-workshop",
+      "type": "rewrite",
+      "title": "Paraphrasing without repeating",
+      "instruction": "Paraphrase each sentence so that it keeps the same meaning but uses different key words and/or structures. Paraphrasing helps when you summarise a stimulus text in the exam.",
+      "difficulty": "C1",
+      "estimated_minutes": 10,
+      "tags": ["paraphrasing", "synonyms", "summary skills"],
+      "items": [
+        {"original": "Many teenagers spend several hours a day on social media.", "model_answer": "It is common for young people to devote a few hours daily to social platforms.", "key_points": ["teenagers → young people / adolescents", "spend → devote / dedicate", "a day → daily", "change of structure (It is common for …)"]},
+        {"original": "Fact-checkers check whether claims are true.", "model_answer": "Fact-checkers verify the accuracy of statements.", "key_points": ["check → verify / examine", "whether … true → the accuracy / truthfulness of", "claims → statements / assertions"]},
+        {"original": "The law protects people’s personal data.", "model_answer": "The legislation safeguards individuals’ private information.", "key_points": ["law → legislation / regulation", "protects → safeguards", "people → individuals", "personal data → private information"]},
+        {"original": "Influencers must say when a post is an advert.", "model_answer": "Creators are required to disclose sponsored content.", "key_points": ["must → are required / obliged to", "say → disclose / make clear", "an advert → sponsored / paid content"]},
+        {"original": "Deepfakes make it harder to trust videos.", "model_answer": "Synthetic media undermines confidence in video evidence.", "key_points": ["make it harder to trust → undermine confidence / erode trust", "deepfakes → AI-manipulated / synthetic media"]}
+      ]
+    },
+    {
+      "id": "lw-linking-choice",
+      "section": "language-workshop",
+      "type": "multiple_choice",
+      "title": "Linking words: meaning and grammar",
+      "instruction": "Choose the linking word that fits both the MEANING and the GRAMMAR of the sentence. Read the explanations – many mistakes come from confusing despite/although or whereas/however.",
+      "difficulty": "B2",
+      "estimated_minutes": 7,
+      "tags": ["linking words", "cohesion", "grammar"],
+      "questions": [
+        {
+          "prompt": "___ the evidence is mixed, many schools have banned phones.",
+          "options": ["Despite", "However", "Although", "Because"],
+          "answer": 2,
+          "explanation": "“Although” + clause (subject + verb). “Despite” needs a noun or -ing form; “however” starts a new sentence."
+        },
+        {
+          "prompt": "___ the risks, many parents give their children smartphones at a young age.",
+          "options": ["Despite", "Although", "Even though", "Whereas"],
+          "answer": 0,
+          "explanation": "“Despite” + noun phrase (the risks). “Although / even though” would need a clause: “Although there are risks, …”."
+        },
+        {
+          "prompt": "Platforms earn money from our attention. ___, they have little incentive to reduce screen time.",
+          "options": ["Nevertheless", "Consequently", "Whereas", "In contrast"],
+          "answer": 1,
+          "explanation": "The second sentence is a result of the first, so “consequently” (= as a result) fits."
+        },
+        {
+          "prompt": "Print sales are falling, ___ digital subscriptions are growing at some newspapers.",
+          "options": ["despite", "therefore", "so that", "whereas"],
+          "answer": 3,
+          "explanation": "“Whereas” contrasts two facts within one sentence."
+        },
+        {
+          "prompt": "Labels on AI content are helpful. ___, they cannot replace critical thinking.",
+          "options": ["Therefore", "Furthermore", "Nevertheless", "For instance"],
+          "answer": 2,
+          "explanation": "“Nevertheless” (= however, despite this) introduces a contrast."
+        },
+        {
+          "prompt": "Many apps use dark patterns. ___, some make it very difficult to cancel a subscription.",
+          "options": ["For instance", "In contrast", "Nevertheless", "Otherwise"],
+          "answer": 0,
+          "explanation": "The second sentence gives an example of dark patterns."
+        },
+        {
+          "prompt": "Users cannot avoid personalised ads ___ they change their settings manually.",
+          "options": ["despite", "unless", "whereas", "in case"],
+          "answer": 1,
+          "explanation": "“Unless” = except if. The only way to avoid the ads is to change the settings."
+        },
+        {
+          "prompt": "___ deepfakes becoming more realistic, detection is getting harder.",
+          "options": ["Although", "Despite", "Because", "With"],
+          "answer": 3,
+          "explanation": "“With + noun + -ing” expresses a cause or accompanying situation. “Although” and “because” need a full clause (“because deepfakes are becoming …”), and “despite” has the wrong meaning."
+        }
+      ]
+    },
+    {
+      "id": "lw-linking-sort",
+      "section": "language-workshop",
+      "type": "sorting",
+      "title": "Linking words by function",
+      "instruction": "Sort the linking words by their function. Knowing the function helps you avoid using the wrong connector in your monologue.",
+      "difficulty": "B2",
+      "estimated_minutes": 5,
+      "tags": ["linking words", "cohesion", "sorting"],
+      "categories": ["Adding", "Contrasting", "Cause and result", "Exemplifying"],
+      "items": [
+        {"text": "furthermore", "category": "Adding"},
+        {"text": "moreover", "category": "Adding"},
+        {"text": "in addition", "category": "Adding"},
+        {"text": "nevertheless", "category": "Contrasting"},
+        {"text": "whereas", "category": "Contrasting"},
+        {"text": "on the other hand", "category": "Contrasting"},
+        {"text": "consequently", "category": "Cause and result"},
+        {"text": "therefore", "category": "Cause and result"},
+        {"text": "as a result", "category": "Cause and result"},
+        {"text": "for instance", "category": "Exemplifying"},
+        {"text": "such as", "category": "Exemplifying"},
+        {"text": "to illustrate this", "category": "Exemplifying"}
+      ],
+      "explanation": "Vary your connectors: instead of repeating “and”, “but” and “so”, use furthermore, nevertheless and consequently. But don’t overload your speech with them – one per idea is enough."
+    },
+    {
+      "id": "lw-cohesion-order",
+      "section": "language-workshop",
+      "type": "ordering",
+      "title": "Build a cohesive paragraph",
+      "instruction": "Put the sentences in the correct order to form a logical paragraph. Use the linking words and reference words (this, however, in turn) as clues.",
+      "difficulty": "C1",
+      "estimated_minutes": 6,
+      "tags": ["cohesion", "ordering", "filter bubble"],
+      "items": [
+        "Personalised feeds are designed to show us content we are likely to engage with.",
+        "At first glance, this seems convenient: we see more of what we like.",
+        "However, this convenience may come at a price.",
+        "If we are mainly shown views that match our own, we may start to believe that everyone thinks like us.",
+        "This, in turn, could make it harder to understand people who disagree with us.",
+        "For this reason, it is worth deliberately seeking out sources with different perspectives."
+      ],
+      "explanation": "Clues: “this seems convenient” refers back to sentence 1; “However, this convenience” picks up “convenient”; “This, in turn” refers to the belief in sentence 4; “For this reason” introduces the conclusion. Reference words create cohesion – use them in your speaking too."
+    },
+    {
+      "id": "lw-monologue-order",
+      "section": "language-workshop",
+      "type": "ordering",
+      "title": "Structure a monologue",
+      "instruction": "These are the parts of a strong exam monologue about a picture. Put them in the most logical order.",
+      "difficulty": "B2",
+      "estimated_minutes": 5,
+      "tags": ["structure", "monologue", "exam skills"],
+      "items": [
+        "Today I’d like to talk about a picture that shows a family at dinner, all looking at their phones.",
+        "In the foreground, two teenagers are scrolling, while their parents are checking messages too.",
+        "This scene suggests that digital devices can make us “together alone”.",
+        "On the one hand, phones can push families apart because real conversations become rarer.",
+        "On the other hand, family group chats and video calls help many families stay in touch.",
+        "Personally, I believe the device is not the problem – it is how and when we use it.",
+        "To sum up, phone-free meals could be a simple way to bring families back to the table."
+      ],
+      "explanation": "Introduction → description → interpretation → arguments on both sides → personal opinion → conclusion. This clear structure is easy for the examiner to follow and works for almost any topic."
+    },
+    {
+      "id": "lw-transformations-1",
+      "section": "language-workshop",
+      "type": "transformation",
+      "title": "Key word transformations I",
+      "instruction": "Complete the second sentence so that it has a similar meaning to the first. Use the word given and do not change it. Use between two and five words, including the word given.",
+      "difficulty": "C1",
+      "estimated_minutes": 10,
+      "tags": ["sentence transformation", "C1", "grammar"],
+      "items": [
+        {"original": "People say that the video was created with AI.", "keyword": "SAID", "gapped": "The video ___ created with AI.", "accepted_answers": ["is said to have been"], "explanation": "Passive reporting structure: subject + is said + to have been (past)."},
+        {"original": "I regret sharing that post.", "keyword": "WISH", "gapped": "I ___ that post.", "accepted_answers": ["wish i had not shared", "wish i hadn't shared", "wish i'd not shared"], "explanation": "wish + past perfect for regrets about the past."},
+        {"original": "It wasn’t necessary for you to delete your account, but you did.", "keyword": "NEED", "gapped": "You ___ your account.", "accepted_answers": ["needn't have deleted", "need not have deleted"], "explanation": "needn’t have + past participle = you did it, but it was unnecessary. (“Didn’t need to delete” does not make clear that you actually did it.)"},
+        {"original": "They will probably introduce stricter rules next year.", "keyword": "LIKELY", "gapped": "Stricter rules ___ introduced next year.", "accepted_answers": ["are likely to be"], "explanation": "be likely to + passive infinitive (to be introduced)."},
+        {"original": "It’s possible that the account was hacked.", "keyword": "MIGHT", "gapped": "The account ___ hacked.", "accepted_answers": ["might have been"], "explanation": "might have been + past participle = speculation about the past (passive)."},
+        {"original": "Despite having been warned, he posted the photo.", "keyword": "EVEN", "gapped": "He posted the photo ___ been warned.", "accepted_answers": ["even though he had", "even though he'd"], "explanation": "even though + clause (he had been warned)."}
+      ]
+    },
+    {
+      "id": "lw-transformations-2",
+      "section": "language-workshop",
+      "type": "transformation",
+      "title": "Key word transformations II: inversion and more",
+      "instruction": "Extra challenge. Complete the second sentence using the word given, so that it has a similar meaning. Use between two and five words, including the word given.",
+      "difficulty": "Challenge",
+      "estimated_minutes": 12,
+      "tags": ["sentence transformation", "inversion", "C1"],
+      "items": [
+        {"original": "As soon as the video was posted, it went viral.", "keyword": "SOONER", "gapped": "No ___ posted than it went viral.", "accepted_answers": ["sooner had the video been"], "explanation": "No sooner + past perfect with inversion (had the video been) + than."},
+        {"original": "The company didn’t apologise until the scandal became public.", "keyword": "ONLY", "gapped": "___ the scandal became public did the company apologise.", "accepted_answers": ["only when", "only after", "only once"], "explanation": "Only when/after + clause, followed by inversion in the main clause (did the company apologise)."},
+        {"original": "I’d prefer you not to post photos of me.", "keyword": "RATHER", "gapped": "I’d ___ post photos of me.", "accepted_answers": ["rather you did not", "rather you didn't"], "explanation": "would rather + subject + past simple to express a preference about someone else’s action."},
+        {"original": "The influencer had just posted the ad when the complaints started.", "keyword": "HARDLY", "gapped": "___ the ad when the complaints started.", "accepted_answers": ["hardly had the influencer posted"], "explanation": "Hardly + inversion (had + subject + past participle) + when."},
+        {"original": "People believe that the leak came from inside the company.", "keyword": "BELIEVED", "gapped": "The leak ___ from inside the company.", "accepted_answers": ["is believed to have come"], "explanation": "Passive reporting structure with a perfect infinitive for a past event."},
+        {"original": "Nobody told me that the post was sponsored.", "keyword": "INFORMED", "gapped": "I ___ that the post was sponsored.", "accepted_answers": ["was not informed", "wasn't informed"], "explanation": "Passive: Nobody told me → I was not informed."}
+      ]
+    },
+    {
+      "id": "lw-c1-structures",
+      "section": "language-workshop",
+      "type": "rewrite",
+      "title": "Sound like C1: emphasis and nominalisation",
+      "instruction": "Rewrite each sentence using the structure given in brackets. These structures add emphasis and sophistication. Compare your answer with the model.",
+      "difficulty": "Challenge",
+      "estimated_minutes": 12,
+      "tags": ["cleft sentences", "inversion", "nominalisation", "C1"],
+      "items": [
+        {"original": "Algorithms worry me most. (cleft sentence: What …)", "model_answer": "What worries me most is the power of algorithms.", "key_points": ["What + clause + is …", "puts emphasis on the last part"]},
+        {"original": "People rarely check their sources. (inversion: Rarely …)", "model_answer": "Rarely do people check their sources.", "key_points": ["negative adverb at the start", "auxiliary (do) before the subject"]},
+        {"original": "Because platforms are not transparent, users don’t trust them. (nominalisation: The lack of …)", "model_answer": "The lack of transparency on platforms leads to a loss of trust among users.", "key_points": ["adjective → noun (transparent → transparency)", "verb → noun (trust → loss of trust)", "more formal, academic style"]},
+        {"original": "We should teach students to use technology. We should also teach them to question it. (Not only …)", "model_answer": "Not only should we teach students to use technology, but we should also teach them to question it.", "key_points": ["Not only + inversion (should we)", "but … also in the second part"]},
+        {"original": "The government didn’t act until a scandal happened. (It was not until …)", "model_answer": "It was not until a scandal broke that the government took action.", "key_points": ["It was not until + time/event + that + clause", "“a scandal broke” is a natural collocation"]}
+      ]
+    }
+  ]
+}
