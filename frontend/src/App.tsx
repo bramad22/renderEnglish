@@ -10,8 +10,6 @@ import { SectionPage } from "./pages/SectionPage";
 // Heavier pages are loaded on demand to keep the first load fast on phones.
 const ExercisePage = lazy(() => import("./pages/ExercisePage").then((m) => ({ default: m.ExercisePage })));
 const SearchPage = lazy(() => import("./pages/SearchPage").then((m) => ({ default: m.SearchPage })));
-const ExamPage = lazy(() => import("./pages/ExamPage").then((m) => ({ default: m.ExamPage })));
-const SourcesPage = lazy(() => import("./pages/SourcesPage").then((m) => ({ default: m.SourcesPage })));
 
 const page = (node: ReactNode) => <Suspense fallback={<LoadingState />}>{node}</Suspense>;
 
@@ -37,8 +35,6 @@ export default function App() {
             <Route path="section/:id" element={<SectionPage />} />
             <Route path="exercise/:id" element={page(<ExercisePage />)} />
             <Route path="search" element={page(<SearchPage />)} />
-            <Route path="exam" element={page(<ExamPage />)} />
-            <Route path="sources" element={page(<SourcesPage />)} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>

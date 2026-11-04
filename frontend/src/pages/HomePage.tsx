@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
-import { ArrowRight, CalendarDays, Clock, Flame, GraduationCap, History, Library, Search, Sparkles } from "lucide-react";
+import { ArrowRight, Flame, History, Library, Search, Sparkles } from "lucide-react";
 import type { ReactNode } from "react";
 import { Link } from "react-router-dom";
 import { api } from "../api/client";
-import type { ExerciseSummary, SectionSummary } from "../api/types";
-import { DifficultyBadge, ErrorState, LoadingState, ProgressRing } from "../components/ui";
+import type { SectionSummary } from "../api/types";
+import { ErrorState, LoadingState, ProgressRing } from "../components/ui";
 import { useAsync } from "../hooks/useAsync";
 import { useProgress } from "../hooks/useProgress";
 import { dailySuggestion } from "../lib/daily";
-import { SECTION_ICONS, TYPE_INFO, accent } from "../lib/theme";
+import { SECTION_ICONS, accent } from "../lib/theme";
 import { cn } from "../lib/utils";
 
 function greeting() {
@@ -67,7 +67,7 @@ export function HomePage() {
       </section>
 
       {/* Continue + daily */}
-      <section className="grid gap-4 md:grid-cols-2" aria-label="Quick start">
+      <section className="grid gap-4 md:grid-cols-1" aria-label="Quick start">
         <QuickCard
           icon={<History className="size-4" aria-hidden />}
           eyebrow="Continue where you left off"
@@ -75,7 +75,6 @@ export function HomePage() {
           title={state.lastVisited?.title ?? "Start your first exercise"}
           meta={state.lastVisited ? sectionById[state.lastVisited.section]?.title : "We suggest beginning with Key Facts."}
         />
-        {suggestion && <DailyCard ex={suggestion} section={sectionById[suggestion.section]} done={!!state.exercises[suggestion.id]?.completed} />}
       </section>
 
       {/* Sections */}
@@ -88,38 +87,12 @@ export function HomePage() {
             <Search className="size-4" aria-hidden /> Search all
           </Link>
         </div>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-2">
           {secs.map((s, i) => (
             <SectionCard key={s.id} section={s} completed={sectionCompleted(s.id)} index={i} />
           ))}
-          <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: secs.length * 0.04 }}>
-            <Link to="/sources" className="card group flex h-full flex-col p-5 transition hover:-translate-y-0.5 hover:shadow-lift">
-              <div className="mb-4 flex items-start justify-between">
-                <span className="grid size-11 place-items-center rounded-xl bg-gradient-to-br from-slate-500 to-slate-700 text-white shadow-sm">
-                  <Library className="size-5" aria-hidden />
-                </span>
-              </div>
-              <h3 className="font-semibold text-slate-900 dark:text-white">Sources & AI Usage</h3>
-              <p className="mt-1 flex-1 text-sm text-slate-600 dark:text-slate-400">Where the facts come from, how AI was used, and how to use this app for exam prep.</p>
-              <span className="mt-4 flex items-center gap-1 text-sm font-medium text-slate-700 dark:text-slate-300">
-                Read <ArrowRight className="size-4 transition group-hover:translate-x-0.5" aria-hidden />
-              </span>
-            </Link>
-          </motion.div>
         </div>
       </section>
-
-      {/* Exam CTA */}
-      <Link to="/exam" className="card group flex items-center gap-4 p-5 transition hover:shadow-lift sm:p-6">
-        <span className="grid size-12 shrink-0 place-items-center rounded-2xl bg-gradient-to-br from-orange-500 to-red-500 text-white shadow-md shadow-orange-500/25">
-          <GraduationCap className="size-6" aria-hidden />
-        </span>
-        <div className="flex-1">
-          <p className="font-semibold text-slate-900 dark:text-white">Mini exam simulation</p>
-          <p className="text-sm text-slate-600 dark:text-slate-400">Random task, preparation timer, speaking timer, examiner questions, self-evaluation.</p>
-        </div>
-        <ArrowRight className="size-5 text-slate-400 transition group-hover:translate-x-1" aria-hidden />
-      </Link>
     </div>
   );
 }
@@ -137,32 +110,6 @@ function QuickCard({ icon, eyebrow, to, title, meta }: { icon: ReactNode; eyebro
       <span className="grid size-10 shrink-0 place-items-center rounded-full bg-slate-100 transition group-hover:bg-indigo-600 group-hover:text-white dark:bg-white/5">
         <ArrowRight className="size-4" aria-hidden />
       </span>
-    </Link>
-  );
-}
-
-function DailyCard({ ex, section, done }: { ex: ExerciseSummary; section?: SectionSummary; done: boolean }) {
-  const TypeIcon = TYPE_INFO[ex.type].icon;
-  return (
-    <Link to={`/exercise/${ex.id}`} className="card group relative flex items-center gap-4 overflow-hidden p-5 transition hover:-translate-y-0.5 hover:shadow-lift">
-      <div className="absolute inset-y-0 left-0 w-1 bg-gradient-to-b from-amber-400 to-orange-500" aria-hidden />
-      <div className="min-w-0 flex-1">
-        <p className="eyebrow mb-1.5 flex items-center gap-1.5">
-          <CalendarDays className="size-4" aria-hidden /> Today’s practice {done && "· done ✓"}
-        </p>
-        <p className="truncate font-semibold text-slate-900 dark:text-white">{ex.title}</p>
-        <p className="mt-1 flex flex-wrap items-center gap-2 text-sm text-slate-500 dark:text-slate-400">
-          <TypeIcon className="size-3.5" aria-hidden /> {TYPE_INFO[ex.type].label}
-          <span aria-hidden>·</span>
-          <Clock className="size-3.5" aria-hidden /> {ex.estimated_minutes} min
-          {section && (
-            <>
-              <span aria-hidden>·</span> {section.short_title}
-            </>
-          )}
-        </p>
-      </div>
-      <DifficultyBadge level={ex.difficulty} />
     </Link>
   );
 }

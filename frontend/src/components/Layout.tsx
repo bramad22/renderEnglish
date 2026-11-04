@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { Flame, GraduationCap, House, Library, Monitor, Moon, Search, Sun } from "lucide-react";
+import { Flame, House, Monitor, Moon, Search, Sun } from "lucide-react";
 import { useEffect } from "react";
 import { NavLink, Outlet, useLocation } from "react-router-dom";
 import { useProgress } from "../hooks/useProgress";
@@ -9,9 +9,7 @@ import { ErrorBoundary } from "./ErrorBoundary";
 
 const NAV = [
   { to: "/", label: "Home", icon: House, end: true },
-  { to: "/search", label: "Search", icon: Search },
-  { to: "/exam", label: "Exam sim", icon: GraduationCap },
-  { to: "/sources", label: "Sources", icon: Library },
+  { to: "/search", label: "Search", icon: Search }
 ];
 
 function ThemeToggle() {
