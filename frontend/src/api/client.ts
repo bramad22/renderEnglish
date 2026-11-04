@@ -53,6 +53,5 @@ export const api = {
   exercise: (id: string) => cached<Exercise>(`/api/exercises/${encodeURIComponent(id)}`),
   exercises: () => cached<ExerciseSummary[]>("/api/exercises"),
   search: (q: string) => request<SearchHit[]>(`/api/search?q=${encodeURIComponent(q)}`),
-  examPrompts: () => cached<SpeakingPromptEx[]>("/api/exam/prompts"),
   meta: () => cached<Meta>("/api/meta"),
 };

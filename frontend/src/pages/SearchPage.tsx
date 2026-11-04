@@ -14,7 +14,6 @@ const FILTERS: { value: Filter; label: string }[] = [
   { value: "C1", label: "C1" },
   { value: "Challenge", label: "★ Challenge" },
 ];
-const SUGGESTIONS = ["deepfake", "privacy", "influencer", "filter bubble", "phrasal verbs", "press freedom", "debate", "false friends"];
 
 function Highlight({ text, q }: { text: string; q: string }) {
   if (!q) return <>{text}</>;
@@ -108,16 +107,6 @@ export function SearchPage() {
 
       {debounced.length < 2 ? (
         <div className="space-y-5">
-          <div>
-            <p className="eyebrow mb-2">Try</p>
-            <div className="flex flex-wrap gap-2">
-              {SUGGESTIONS.map((s) => (
-                <button key={s} className="btn-secondary min-h-9 rounded-full px-3.5 py-1.5 text-sm font-medium" onClick={() => setQuery(s)}>
-                  {s}
-                </button>
-              ))}
-            </div>
-          </div>
           {filter !== "all" && (
             <div>
               <p className="eyebrow mb-2">All {filter} exercises ({browse.length})</p>
