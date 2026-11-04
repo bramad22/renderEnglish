@@ -68,7 +68,7 @@ export function SearchPage() {
   const vocabHits = filtered.filter((h) => h.kind === "vocabulary");
 
   const browse = useMemo<ExerciseSummary[]>(
-    () => (all.data ?? []).filter((e) => filter !== "all" && e.difficulty === filter),
+    () => (all.data ?? []).filter((e) => filter === "all" || e.difficulty === filter),
     [all.data, filter],
   );
 
@@ -107,7 +107,6 @@ export function SearchPage() {
 
       {debounced.length < 2 ? (
         <div className="space-y-5">
-          {filter !== "all" && (
             <div>
               <p className="eyebrow mb-2">All {filter} exercises ({browse.length})</p>
               <ul className="grid gap-3">
@@ -118,7 +117,6 @@ export function SearchPage() {
                 ))}
               </ul>
             </div>
-          )}
         </div>
       ) : (
         <div className="space-y-6" aria-live="polite">
