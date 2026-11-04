@@ -5,7 +5,6 @@ import type {
   SearchHit,
   SectionDetail,
   SectionSummary,
-  SpeakingPromptEx,
 } from "./types";
 
 // Relative by default (Vite proxies /api to the backend). Override with VITE_API_BASE.
