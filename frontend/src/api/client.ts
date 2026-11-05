@@ -9,7 +9,6 @@ import type {
 
 // Relative by default (Vite proxies /api to the backend). Override with VITE_API_BASE.
 const BASE = (import.meta.env.VITE_API_BASE as string | undefined) ?? "";
-
 export class ApiError extends Error {
   status: number;
   constructor(status: number, message: string) {
