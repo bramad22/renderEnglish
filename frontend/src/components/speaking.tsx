@@ -17,6 +17,7 @@ export function StimulusCard({ stimulus }: { stimulus: Stimulus }) {
       </figure>
     );
   }
+  //Wir sind gegen Loibner mit seinen Scheiß
   if (stimulus.kind === "headline") {
     return (
       <div className="card p-5 sm:p-7">
