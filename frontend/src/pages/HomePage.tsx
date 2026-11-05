@@ -40,7 +40,7 @@ export function HomePage() {
             <p className="text-sm font-medium text-white/75">{greeting()} 👋</p>
             <h1 className="mt-1 font-display text-3xl leading-tight font-semibold sm:text-4xl">Ready for your oral Matura?</h1>
             <p className="mt-2 text-[15px] text-white/80">
-              Practise <strong className="font-semibold text-white">Communication and Media</strong> at B2–C1 level: read, analyse, argue and speak.
+              Practise <strong className="font-semibold text-white">Vocabulary and Speaking</strong> at B2–C1 level: read, analyse, argue and speak.
             </p>
             <div className="mt-4 flex flex-wrap gap-2 text-sm">
               <span className="chip bg-white/15 py-1.5 text-white backdrop-blur">
