@@ -30,7 +30,7 @@ async def lifespan(_app: FastAPI):
 app = FastAPI(title="Matura Trainer API", version="1.0.0", lifespan=lifespan)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:4173", "https://renderenglish.onrender.com"],
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:4173", "https://renderenglish.onrender.com", "https://renderenglish-1.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
